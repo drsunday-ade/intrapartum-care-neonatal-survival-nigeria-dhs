@@ -1,0 +1,7 @@
+step_label,n_unweighted,n_weighted,step_id,n_weighted_round
+All births in births recode,104557,107075.92722499181,1,107076
+Births in last 5 years (child age <= 59 months),27783,28728.417019000615,2,28728
+Facility births (delivery in health facility),7245,7010.719748999943,3,7011
+Facility singleton births,6870,6637.08623199997,4,6637
+Most recent facility singleton births per woman (bidx = 1),6072,5894.309502999977,5,5894
+"Analytic cohort (complete data on exposures, outcomes, covariates)",5860,5722.845034999977,6,5723

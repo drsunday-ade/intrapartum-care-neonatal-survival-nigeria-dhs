@@ -1,0 +1,1 @@
+Original 5-category size variable (m18) not available; ordered model skipped.

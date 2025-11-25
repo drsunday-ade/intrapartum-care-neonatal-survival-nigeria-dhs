@@ -1,0 +1,1337 @@
+variable,type,label,labelset,dataset_label
+caseid,character,case identification,NA,NA
+bidx,numeric,birth column number,NA,NA
+v000,character,country code and phase,NA,NA
+v001,numeric,cluster number,NA,NA
+v002,numeric,household number,NA,NA
+v003,numeric,respondent's line number,NA,NA
+v004,numeric,ultimate area unit,NA,NA
+v005,numeric,women's individual sample weight (6 decimals),NA,NA
+v006,numeric,month of interview,NA,NA
+v007,numeric,year of interview,NA,NA
+v008,numeric,date of interview (cmc),NA,NA
+v008a,numeric,date of interview century day code (cdc),NA,NA
+v009,numeric,respondent's month of birth,NA,NA
+v010,numeric,respondent's year of birth,NA,NA
+v011,numeric,date of birth (cmc),NA,NA
+v012,numeric,respondent's current age,NA,NA
+v013,haven_labelled|vctrs_vctr|double,age in 5-year groups,NA,NA
+v014,haven_labelled|vctrs_vctr|double,completeness of age information,NA,NA
+v015,haven_labelled|vctrs_vctr|double,result of individual interview,NA,NA
+v016,numeric,day of interview,NA,NA
+v017,numeric,cmc start of calendar,NA,NA
+v018,haven_labelled|vctrs_vctr|double,row of month of interview,NA,NA
+v019,haven_labelled|vctrs_vctr|double,length of calendar,NA,NA
+v019a,haven_labelled|vctrs_vctr|double,number of calendar columns,NA,NA
+v020,haven_labelled|vctrs_vctr|double,ever-married sample,NA,NA
+v021,numeric,primary sampling unit,NA,NA
+v022,haven_labelled|vctrs_vctr|double,sample strata for sampling errors,NA,NA
+v023,haven_labelled|vctrs_vctr|double,stratification used in sample design,NA,NA
+v024,haven_labelled|vctrs_vctr|double,zone (code are as per sample frame),NA,NA
+v025,haven_labelled|vctrs_vctr|double,type of place of residence,NA,NA
+v026,haven_labelled|vctrs_vctr|double,na - de facto place of residence,NA,NA
+v027,numeric,number of visits,NA,NA
+v028,numeric,interviewer identification,NA,NA
+v029,numeric,na - keyer identification,NA,NA
+v030,numeric,field supervisor,NA,NA
+v031,numeric,na - field editor,NA,NA
+v032,numeric,na - office editor,NA,NA
+v034,haven_labelled|vctrs_vctr|double,line number of husband,NA,NA
+v040,numeric,cluster altitude in meters,NA,NA
+v042,haven_labelled|vctrs_vctr|double,household selected for hemoglobin,NA,NA
+v044,haven_labelled|vctrs_vctr|double,selected for domestic violence module,NA,NA
+v045a,haven_labelled|vctrs_vctr|double,language of questionnaire,NA,NA
+v045b,haven_labelled|vctrs_vctr|double,language of interview,NA,NA
+v045c,haven_labelled|vctrs_vctr|double,native language of respondent,NA,NA
+v046,haven_labelled|vctrs_vctr|double,translator used,NA,NA
+v047,numeric,team number,NA,NA
+v048,numeric,team supervisor,NA,NA
+v101,haven_labelled|vctrs_vctr|double,zone (codes are as per sample frame),NA,NA
+v102,haven_labelled|vctrs_vctr|double,type of place of residence,NA,NA
+v103,haven_labelled|vctrs_vctr|double,na - childhood place of residence,NA,NA
+v104,haven_labelled|vctrs_vctr|double,years lived in place of residence,NA,NA
+v105,haven_labelled|vctrs_vctr|double,type of place of previous residence,NA,NA
+v105a,haven_labelled|vctrs_vctr|double,zone of previous residence,NA,NA
+v106,haven_labelled|vctrs_vctr|double,highest educational level,NA,NA
+v107,haven_labelled|vctrs_vctr|double,highest year of education,NA,NA
+v113,haven_labelled|vctrs_vctr|double,source of drinking water,NA,NA
+v115,haven_labelled|vctrs_vctr|double,time to get to water source,NA,NA
+v116,haven_labelled|vctrs_vctr|double,type of toilet facility,NA,NA
+v119,haven_labelled|vctrs_vctr|double,household has: electricity,NA,NA
+v120,haven_labelled|vctrs_vctr|double,household has: radio,NA,NA
+v121,haven_labelled|vctrs_vctr|double,household has: television,NA,NA
+v122,haven_labelled|vctrs_vctr|double,household has: refrigerator,NA,NA
+v123,haven_labelled|vctrs_vctr|double,household has: bicycle,NA,NA
+v124,haven_labelled|vctrs_vctr|double,household has: motorcycle/scooter,NA,NA
+v125,haven_labelled|vctrs_vctr|double,household has: car/truck,NA,NA
+v127,haven_labelled|vctrs_vctr|double,main floor material,NA,NA
+v128,haven_labelled|vctrs_vctr|double,main wall material,NA,NA
+v129,haven_labelled|vctrs_vctr|double,main roof material,NA,NA
+v130,haven_labelled|vctrs_vctr|double,religion,NA,NA
+v131,haven_labelled|vctrs_vctr|double,ethnicity,NA,NA
+v133,haven_labelled|vctrs_vctr|double,education in single years,NA,NA
+v134,haven_labelled|vctrs_vctr|double,na - de facto place of residence,NA,NA
+v135,haven_labelled|vctrs_vctr|double,usual resident or visitor,NA,NA
+v136,numeric,number of household members (listed),NA,NA
+v137,numeric,number of children 5 and under in household (de jure),NA,NA
+v138,numeric,number of eligible women in household (de facto),NA,NA
+v139,haven_labelled|vctrs_vctr|double,de jure region of residence,NA,NA
+v140,haven_labelled|vctrs_vctr|double,de jure type of place of residence,NA,NA
+v141,haven_labelled|vctrs_vctr|double,na - de jure place of residence,NA,NA
+v149,haven_labelled|vctrs_vctr|double,educational attainment,NA,NA
+v150,haven_labelled|vctrs_vctr|double,relationship to household head,NA,NA
+v151,haven_labelled|vctrs_vctr|double,sex of household head,NA,NA
+v152,haven_labelled|vctrs_vctr|double,age of household head,NA,NA
+v153,haven_labelled|vctrs_vctr|double,household has: telephone (land-line),NA,NA
+awfactt,numeric,all woman factor - total,NA,NA
+awfactu,numeric,all woman factor - urban/rural,NA,NA
+awfactr,numeric,all woman factor - regional,NA,NA
+awfacte,numeric,all woman factor - educational,NA,NA
+awfactw,numeric,all woman factor - wealth index,NA,NA
+v155,haven_labelled|vctrs_vctr|double,literacy,NA,NA
+v156,haven_labelled|vctrs_vctr|double,na - ever participated in a literacy program outside of primary,NA,NA
+v157,haven_labelled|vctrs_vctr|double,frequency of reading newspaper or magazine,NA,NA
+v158,haven_labelled|vctrs_vctr|double,frequency of listening to radio,NA,NA
+v159,haven_labelled|vctrs_vctr|double,frequency of watching television,NA,NA
+v160,haven_labelled|vctrs_vctr|double,toilet facilities shared with other households,NA,NA
+v161,haven_labelled|vctrs_vctr|double,type of cooking fuel,NA,NA
+v166,haven_labelled|vctrs_vctr|double,na - result of salt test for iodine,NA,NA
+v167,haven_labelled|vctrs_vctr|double,na - number of trips in last 12 months,NA,NA
+v168,haven_labelled|vctrs_vctr|double,na - away for more than one month in last 12 months,NA,NA
+v169a,haven_labelled|vctrs_vctr|double,owns a mobile telephone,NA,NA
+v169b,haven_labelled|vctrs_vctr|double,last 12 months use mobile telephone for financial transactions,NA,NA
+v169c,haven_labelled|vctrs_vctr|double,is respondent's mobile phone a smart phone,NA,NA
+v170,haven_labelled|vctrs_vctr|double,has an account in a bank or other financial institution,NA,NA
+v171a,haven_labelled|vctrs_vctr|double,use of internet,NA,NA
+v171b,haven_labelled|vctrs_vctr|double,frequency of using internet last month,NA,NA
+v172,haven_labelled|vctrs_vctr|double,respondent state of birth,NA,NA
+v173,haven_labelled|vctrs_vctr|double,respondent country of birth,NA,NA
+v174m,haven_labelled|vctrs_vctr|double,month move to current place of residence,NA,NA
+v174y,haven_labelled|vctrs_vctr|double,year move to current place of residence,NA,NA
+v175,haven_labelled|vctrs_vctr|double,reason for moving to current place of residence,NA,NA
+v176,haven_labelled|vctrs_vctr|double,self reported health status,NA,NA
+v177,haven_labelled|vctrs_vctr|double,money put/taken from bank account last 12 months,NA,NA
+v190,haven_labelled|vctrs_vctr|double,wealth index combined,NA,NA
+v191,numeric,wealth index factor score combined (5 decimals),NA,NA
+v190a,haven_labelled|vctrs_vctr|double,wealth index for urban/rural,NA,NA
+v191a,numeric,wealth index factor score for urban/rural (5 decimals),NA,NA
+ml101,haven_labelled|vctrs_vctr|double,type of mosquito bed net(s) slept under last night,NA,NA
+v201,numeric,total children ever born,NA,NA
+v202,numeric,sons at home,NA,NA
+v203,numeric,daughters at home,NA,NA
+v204,numeric,sons elsewhere,NA,NA
+v205,numeric,daughters elsewhere,NA,NA
+v206,numeric,sons who have died,NA,NA
+v207,numeric,daughters who have died,NA,NA
+v208,haven_labelled|vctrs_vctr|double,births in last five years,NA,NA
+v209,haven_labelled|vctrs_vctr|double,births in past year,NA,NA
+v210,numeric,births in month of interview,NA,NA
+v211,numeric,date of first birth (cmc),NA,NA
+v212,numeric,age of respondent at 1st birth,NA,NA
+v213,haven_labelled|vctrs_vctr|double,currently pregnant,NA,NA
+v214,numeric,duration of current pregnancy in months,NA,NA
+v214a,haven_labelled|vctrs_vctr|double,duration of current pregnancy original,NA,NA
+v215,haven_labelled|vctrs_vctr|double,time since last menstrual period,NA,NA
+v216,haven_labelled|vctrs_vctr|double,menstruated in last six weeks,NA,NA
+v217,haven_labelled|vctrs_vctr|double,knowledge of ovulatory cycle,NA,NA
+v218,numeric,number of living children,NA,NA
+v219,numeric,living children + current pregnancy,NA,NA
+v220,haven_labelled|vctrs_vctr|double,living children + current pregnancy (grouped),NA,NA
+v221,haven_labelled|vctrs_vctr|double,marriage to first birth interval (months),NA,NA
+v222,numeric,last birth to interview (months),NA,NA
+v223,haven_labelled|vctrs_vctr|double,completeness of current pregnancy information,NA,NA
+v224,numeric,entries in birth history,NA,NA
+v225,haven_labelled|vctrs_vctr|double,current pregnancy wanted,NA,NA
+v226,haven_labelled|vctrs_vctr|double,time since last period (comp) (months),NA,NA
+v227,haven_labelled|vctrs_vctr|double,flag for last period,NA,NA
+v228,haven_labelled|vctrs_vctr|double,ever had a terminated pregnancy,NA,NA
+v229,haven_labelled|vctrs_vctr|double,month pregnancy ended,NA,NA
+v230,haven_labelled|vctrs_vctr|double,year pregnancy ended,NA,NA
+v231,haven_labelled|vctrs_vctr|double,cmc pregnancy ended,NA,NA
+v232,haven_labelled|vctrs_vctr|double,completeness of last termination information,NA,NA
+v233,haven_labelled|vctrs_vctr|double,months when pregnancy ended,NA,NA
+v234,haven_labelled|vctrs_vctr|double,other such pregnancies,NA,NA
+v235,haven_labelled|vctrs_vctr|double,index last child prior to maternity-health (calendar),NA,NA
+v237,haven_labelled|vctrs_vctr|double,birth between last and interview,NA,NA
+v238,numeric,births in last three years,NA,NA
+v239,haven_labelled|vctrs_vctr|double,pregnancies terminated before calendar beginning,NA,NA
+v240,haven_labelled|vctrs_vctr|double,month of last termination prior to calendar,NA,NA
+v241,haven_labelled|vctrs_vctr|double,year of last termination prior to calendar,NA,NA
+v242,haven_labelled|vctrs_vctr|double,cmc termination ended prior to calendar,NA,NA
+v243,haven_labelled|vctrs_vctr|double,completeness of last termination date prior to calendar,NA,NA
+v244,haven_labelled|vctrs_vctr|double,can women get pregnant after birth and before period,NA,NA
+v245,numeric,pregnancy losses,NA,NA
+v246,numeric,entries in pregnancy history,NA,NA
+v247a,haven_labelled|vctrs_vctr|double,collection of menstrual blood: reusable sanitary pads,NA,NA
+v247b,haven_labelled|vctrs_vctr|double,collection of menstrual blood: disposable sanitary pads,NA,NA
+v247c,haven_labelled|vctrs_vctr|double,collection of menstrual blood: tampons,NA,NA
+v247d,haven_labelled|vctrs_vctr|double,collection of menstrual blood: menstrual cup,NA,NA
+v247e,haven_labelled|vctrs_vctr|double,collection of menstrual blood: cloth,NA,NA
+v247f,haven_labelled|vctrs_vctr|double,collection of menstrual blood: toilet paper,NA,NA
+v247g,haven_labelled|vctrs_vctr|double,collection of menstrual blood: cotton wool,NA,NA
+v247h,haven_labelled|vctrs_vctr|double,collection of menstrual blood: underwear only,NA,NA
+v247i,haven_labelled|vctrs_vctr|double,na - collection of menstrual blood: cs,NA,NA
+v247j,haven_labelled|vctrs_vctr|double,na - collection of menstrual blood: cs,NA,NA
+v247k,haven_labelled|vctrs_vctr|double,na - collection of menstrual blood: cs,NA,NA
+v247l,haven_labelled|vctrs_vctr|double,na - collection of menstrual blood: cs,NA,NA
+v247x,haven_labelled|vctrs_vctr|double,collection of menstrual blood: other,NA,NA
+v247y,haven_labelled|vctrs_vctr|double,collection of menstrual blood: nothing,NA,NA
+v248,haven_labelled|vctrs_vctr|double,able to change in privacy during last menstrual cycle,NA,NA
+v249,haven_labelled|vctrs_vctr|double,age at first menstrual period,NA,NA
+v310,numeric,na - living children at first use,NA,NA
+v311,haven_labelled|vctrs_vctr|double,na - children at first use (grouped),NA,NA
+v312,haven_labelled|vctrs_vctr|double,current contraceptive method,NA,NA
+v313,haven_labelled|vctrs_vctr|double,current use by method type,NA,NA
+v315,numeric,month of start of use of method,NA,NA
+v316,numeric,year of start of use of method,NA,NA
+v317,numeric,date of start of use of method (cmc),NA,NA
+v318,haven_labelled|vctrs_vctr|double,completeness of information,NA,NA
+v319,haven_labelled|vctrs_vctr|double,years since sterilization,NA,NA
+v320,haven_labelled|vctrs_vctr|double,age at sterilization,NA,NA
+v321,haven_labelled|vctrs_vctr|double,years since first union at sterilization,NA,NA
+v321a,haven_labelled|vctrs_vctr|double,years since current union at sterilization,NA,NA
+v322,haven_labelled|vctrs_vctr|double,parity at sterilization,NA,NA
+v323,haven_labelled|vctrs_vctr|double,brand of pill used,NA,NA
+v323a,haven_labelled|vctrs_vctr|double,brand of condom used,NA,NA
+v325a,haven_labelled|vctrs_vctr|double,na - cost of current method (in currency),NA,NA
+v326,haven_labelled|vctrs_vctr|double,last source for current users,NA,NA
+v327,haven_labelled|vctrs_vctr|double,last source for users by type,NA,NA
+v337,haven_labelled|vctrs_vctr|double,months of use of current method,NA,NA
+v359,haven_labelled|vctrs_vctr|double,last method discontinued in last 5 years,NA,NA
+v360,haven_labelled|vctrs_vctr|double,reason of last discontinuation,NA,NA
+v361,haven_labelled|vctrs_vctr|double,pattern of use,NA,NA
+v362,haven_labelled|vctrs_vctr|double,intention to use,NA,NA
+v363,haven_labelled|vctrs_vctr|double,na - preferred future method,NA,NA
+v364,haven_labelled|vctrs_vctr|double,contraceptive use and intention,NA,NA
+v367,haven_labelled|vctrs_vctr|double,wanted last child,NA,NA
+v367a,haven_labelled|vctrs_vctr|double,wanted last pregnancy,NA,NA
+v372,haven_labelled|vctrs_vctr|double,na - shown pill package,NA,NA
+v372a,haven_labelled|vctrs_vctr|double,na - shown condom package,NA,NA
+v375a,haven_labelled|vctrs_vctr|double,na - main reason not using a method,NA,NA
+v376,haven_labelled|vctrs_vctr|double,na - main reason not to use a method,NA,NA
+v376a,haven_labelled|vctrs_vctr|double,na - would ever use method if married,NA,NA
+v379,haven_labelled|vctrs_vctr|double,source known for any method,NA,NA
+v380,haven_labelled|vctrs_vctr|double,source known for any method,NA,NA
+v384a,haven_labelled|vctrs_vctr|double,heard family planning on radio last few months,NA,NA
+v384b,haven_labelled|vctrs_vctr|double,heard family planning on tv last few months,NA,NA
+v384c,haven_labelled|vctrs_vctr|double,heard family planning in newspaper/magazine last few months,NA,NA
+v384d,haven_labelled|vctrs_vctr|double,heard family planning by text messages on mobile phone,NA,NA
+v384e,haven_labelled|vctrs_vctr|double,"seen about family planning on facebook, twitter, instagram, others",NA,NA
+v384f,haven_labelled|vctrs_vctr|double,"seen about family planning on poster, brochure",NA,NA
+v384g,haven_labelled|vctrs_vctr|double,"seen about family planning on outdoor sign, billboard",NA,NA
+v384h,haven_labelled|vctrs_vctr|double,heard family planning at community meetings events,NA,NA
+v384i,haven_labelled|vctrs_vctr|double,na - heard/seen family planning cs,NA,NA
+v384j,haven_labelled|vctrs_vctr|double,na - heard/seen family planning cs,NA,NA
+v384k,haven_labelled|vctrs_vctr|double,na - heard/seen family planning cs,NA,NA
+v393,haven_labelled|vctrs_vctr|double,visited by fieldworker in last 12 months,NA,NA
+v393a,haven_labelled|vctrs_vctr|double,did fieldworker talk about family planning,NA,NA
+v394,haven_labelled|vctrs_vctr|double,visited health facility last 12 months,NA,NA
+v395,haven_labelled|vctrs_vctr|double,"at health facility, told of family planning",NA,NA
+v3a00a,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: government hospital,NA,NA
+v3a00b,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs public sector,NA,NA
+v3a00c,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs public sector,NA,NA
+v3a00d,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs public sector,NA,NA
+v3a00e,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs public sector,NA,NA
+v3a00f,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs public sector,NA,NA
+v3a00g,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs public sector,NA,NA
+v3a00h,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs public sector,NA,NA
+v3a00i,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs public sector,NA,NA
+v3a00j,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: private hospital/clinic,NA,NA
+v3a00k,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: pharmacy,NA,NA
+v3a00l,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: private doctor,NA,NA
+v3a00m,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs private sector,NA,NA
+v3a00n,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs private sector,NA,NA
+v3a00o,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs private sector,NA,NA
+v3a00p,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs private sector,NA,NA
+v3a00q,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs private sector,NA,NA
+v3a00r,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs private sector,NA,NA
+v3a00s,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs other,NA,NA
+v3a00t,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs other,NA,NA
+v3a00u,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs other,NA,NA
+v3a00v,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs other,NA,NA
+v3a00w,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: cs other,NA,NA
+v3a00x,haven_labelled|vctrs_vctr|double,na - source of family planning for non-users: other,NA,NA
+v3a00y,haven_labelled|vctrs_vctr|double,source of family planning for non-users: no source,NA,NA
+v3a00z,haven_labelled|vctrs_vctr|double,source of family planning for non-users: any source,NA,NA
+v3a01,haven_labelled|vctrs_vctr|double,na - told sterilization would mean no more children,NA,NA
+v3a02,haven_labelled|vctrs_vctr|double,told about side effects,NA,NA
+v3a03,haven_labelled|vctrs_vctr|double,na - told about side effects by health or family planning worker,NA,NA
+v3a04,haven_labelled|vctrs_vctr|double,told how to deal with side effects,NA,NA
+v3a05,haven_labelled|vctrs_vctr|double,told about other family planning methods,NA,NA
+v3a06,haven_labelled|vctrs_vctr|double,na - told about other family planning methods by health or family planning worke,NA,NA
+v3a07,haven_labelled|vctrs_vctr|double,first source for current method,NA,NA
+v3a08a,haven_labelled|vctrs_vctr|double,reason not using: not married,NA,NA
+v3a08b,haven_labelled|vctrs_vctr|double,reason not using: not having sex,NA,NA
+v3a08c,haven_labelled|vctrs_vctr|double,reason not using: infrequent sex,NA,NA
+v3a08d,haven_labelled|vctrs_vctr|double,reason not using: menopausal/hysterectomy,NA,NA
+v3a08e,haven_labelled|vctrs_vctr|double,reason not using: subfecund/infecund,NA,NA
+v3a08f,haven_labelled|vctrs_vctr|double,reason not using: postpartum amenorrheic,NA,NA
+v3a08g,haven_labelled|vctrs_vctr|double,reason not using: breastfeeding,NA,NA
+v3a08h,haven_labelled|vctrs_vctr|double,reason not using: fatalistic,NA,NA
+v3a08i,haven_labelled|vctrs_vctr|double,reason not using: respondent opposed,NA,NA
+v3a08j,haven_labelled|vctrs_vctr|double,reason not using: husband/partner opposed,NA,NA
+v3a08k,haven_labelled|vctrs_vctr|double,reason not using: others opposed,NA,NA
+v3a08l,haven_labelled|vctrs_vctr|double,reason not using: religious prohibition,NA,NA
+v3a08m,haven_labelled|vctrs_vctr|double,reason not using: knows no method,NA,NA
+v3a08n,haven_labelled|vctrs_vctr|double,reason not using: knows no source,NA,NA
+v3a08o,haven_labelled|vctrs_vctr|double,na - reason not using: health concerns,NA,NA
+v3a08p,haven_labelled|vctrs_vctr|double,reason not using: other side effects,NA,NA
+v3a08q,haven_labelled|vctrs_vctr|double,reason not using: lack of access/too far,NA,NA
+v3a08r,haven_labelled|vctrs_vctr|double,reason not using: costs too much,NA,NA
+v3a08s,haven_labelled|vctrs_vctr|double,reason not using: inconvenient to use,NA,NA
+v3a08t,haven_labelled|vctrs_vctr|double,reason not using: interferes with body'??s processes,NA,NA
+v3a08u,haven_labelled|vctrs_vctr|double,reason not using: preferred method not available,NA,NA
+v3a08v,haven_labelled|vctrs_vctr|double,reason not using: no method available,NA,NA
+v3a08w,haven_labelled|vctrs_vctr|double,reason not using: changes in menstrual bleeding,NA,NA
+v3a08aa,haven_labelled|vctrs_vctr|double,reason not using: methods could cause infertility,NA,NA
+v3a08ab,haven_labelled|vctrs_vctr|double,na - reason not using: cs,NA,NA
+v3a08ac,haven_labelled|vctrs_vctr|double,na - reason not using: cs,NA,NA
+v3a08ad,haven_labelled|vctrs_vctr|double,na - reason not using: cs,NA,NA
+v3a08ae,haven_labelled|vctrs_vctr|double,na - reason not using: cs,NA,NA
+v3a08af,haven_labelled|vctrs_vctr|double,na - reason not using: cs,NA,NA
+v3a08x,haven_labelled|vctrs_vctr|double,reason not using: other,NA,NA
+v3a08z,haven_labelled|vctrs_vctr|double,reason not using: don't know,NA,NA
+v3a09a,haven_labelled|vctrs_vctr|double,na - how many pill cycles did get last time,NA,NA
+v3a09b,haven_labelled|vctrs_vctr|double,na - how many condoms did get last time,NA,NA
+v3a10,haven_labelled|vctrs_vctr|double,probe for respondent/partner sterilized,NA,NA
+v3a11,haven_labelled|vctrs_vctr|double,type of injectable based on picture observation,NA,NA
+v3a12,haven_labelled|vctrs_vctr|double,person who injected last time,NA,NA
+v3a13,haven_labelled|vctrs_vctr|double,used emergency contraception in past 12 months,NA,NA
+v3a14,haven_labelled|vctrs_vctr|double,could switch method if wanted/needed,NA,NA
+v401,haven_labelled|vctrs_vctr|double,last birth a caesarean section,NA,NA
+v404,haven_labelled|vctrs_vctr|double,currently breastfeeding,NA,NA
+v405,haven_labelled|vctrs_vctr|double,currently amenorrheic,NA,NA
+v406,haven_labelled|vctrs_vctr|double,currently abstaining,NA,NA
+v407,haven_labelled|vctrs_vctr|double,na - number of times breastfed during night,NA,NA
+v408,haven_labelled|vctrs_vctr|double,na - number of times breastfed during day,NA,NA
+v415,haven_labelled|vctrs_vctr|double,drank from bottle with nipple yesterday/last night,NA,NA
+v416,haven_labelled|vctrs_vctr|double,na - heard of oral rehydration,NA,NA
+v417,numeric,entries in pregnancy and postnatal care roster,NA,NA
+v418,numeric,entries in immunization roster,NA,NA
+v418a,numeric,entries in child health roster,NA,NA
+v419,numeric,entries in height/weight roster,NA,NA
+v420,numeric,measurer's code,NA,NA
+v421,haven_labelled|vctrs_vctr|double,assistant measurer's code,NA,NA
+v426,haven_labelled|vctrs_vctr|double,when child put to breast,NA,NA
+v437,haven_labelled|vctrs_vctr|double,respondent's weight in kilograms (1 decimal),NA,NA
+v438,haven_labelled|vctrs_vctr|double,respondent's height in centimeters (1 decimal),NA,NA
+v445,haven_labelled|vctrs_vctr|double,body mass index,NA,NA
+v447,haven_labelled|vctrs_vctr|double,result of measurement - height/weight,NA,NA
+v446a,haven_labelled|vctrs_vctr|double,height/age standard deviation (new who) (women age 15-19),NA,NA
+v446d,haven_labelled|vctrs_vctr|double,bmi/age standard deviation (new who) (women age 15-19),NA,NA
+v447a,numeric,women's age in years (from household questionnaire),NA,NA
+v452a,haven_labelled|vctrs_vctr|double,under age 18 (from household questionnaire),NA,NA
+v452b,haven_labelled|vctrs_vctr|double,line number of parent/caretaker,NA,NA
+v452c,haven_labelled|vctrs_vctr|double,read consent statement - hemoglobin,NA,NA
+v453,haven_labelled|vctrs_vctr|double,hemoglobin level (g/dl - 1 decimal),NA,NA
+v454,haven_labelled|vctrs_vctr|double,currently pregnant (from household questionnaire),NA,NA
+v455,haven_labelled|vctrs_vctr|double,result of measurement - hemoglobin,NA,NA
+v456,numeric,hemoglobin level adjusted for altitude and smoking (g/dl - 1 decimal),NA,NA
+v456a,numeric,hemoglobin level adjusted for altitude and smoking (g/dl - 1 decimal) (new who),NA,NA
+v457,haven_labelled|vctrs_vctr|double,anemia level,NA,NA
+v457a,haven_labelled|vctrs_vctr|double,anemia level (new who),NA,NA
+v458,haven_labelled|vctrs_vctr|double,na - agrees to referral - anemia,NA,NA
+v459,haven_labelled|vctrs_vctr|double,have mosquito bed net for sleeping (from household questionnaire),NA,NA
+v460,haven_labelled|vctrs_vctr|double,children under 5 slept under mosquito bed net last night (household questionnair,NA,NA
+v461,haven_labelled|vctrs_vctr|double,respondent slept under mosquito bed net,NA,NA
+v462,haven_labelled|vctrs_vctr|double,na - washed hands before preparing last meal,NA,NA
+v463a,haven_labelled|vctrs_vctr|double,smokes cigarettes,NA,NA
+v463b,haven_labelled|vctrs_vctr|double,smokes pipe full of tobacco,NA,NA
+v463c,haven_labelled|vctrs_vctr|double,chews tobacco,NA,NA
+v463d,haven_labelled|vctrs_vctr|double,snuffs by nose,NA,NA
+v463e,haven_labelled|vctrs_vctr|double,smokes kreteks,NA,NA
+v463f,haven_labelled|vctrs_vctr|double,"smokes cigars, cheroots or cigarillos",NA,NA
+v463g,haven_labelled|vctrs_vctr|double,smokes water pipe,NA,NA
+v463h,haven_labelled|vctrs_vctr|double,snuff by mouth,NA,NA
+v463i,haven_labelled|vctrs_vctr|double,chews betel quid with tobacco,NA,NA
+v463j,haven_labelled|vctrs_vctr|double,na - smokes/uses country specific,NA,NA
+v463k,haven_labelled|vctrs_vctr|double,na - smokes/uses country specific,NA,NA
+v463l,haven_labelled|vctrs_vctr|double,na - smokes/uses country specific,NA,NA
+v463x,haven_labelled|vctrs_vctr|double,smokes/uses other,NA,NA
+v463z,haven_labelled|vctrs_vctr|double,does not use cigarettes and tobacco,NA,NA
+v463aa,haven_labelled|vctrs_vctr|double,frequency smokes cigarettes,NA,NA
+v463ab,haven_labelled|vctrs_vctr|double,frequency currently uses other type of tobacco,NA,NA
+v464,haven_labelled|vctrs_vctr|double,number of cigarettes in last 24 hours,NA,NA
+v466,haven_labelled|vctrs_vctr|double,"na - when child is seriously ill, can decide whether medical treatment sought",NA,NA
+v467a,haven_labelled|vctrs_vctr|double,na - getting medical help for self: know where to go,NA,NA
+v467b,haven_labelled|vctrs_vctr|double,getting medical help for self: getting permission to go,NA,NA
+v467c,haven_labelled|vctrs_vctr|double,getting medical help for self: getting money needed for treatment,NA,NA
+v467d,haven_labelled|vctrs_vctr|double,getting medical help for self: distance to health facility,NA,NA
+v467e,haven_labelled|vctrs_vctr|double,na - getting medical help for self: having to take transport,NA,NA
+v467f,haven_labelled|vctrs_vctr|double,getting medical help for self: not wanting to go alone,NA,NA
+v467g,haven_labelled|vctrs_vctr|double,na - getting medical help for self: concern no female health provider,NA,NA
+v467h,haven_labelled|vctrs_vctr|double,na - getting medical help for self: concern no provider,NA,NA
+v467i,haven_labelled|vctrs_vctr|double,na - getting medical help for self: concern no drugs available,NA,NA
+v467j,haven_labelled|vctrs_vctr|double,na - getting medical help for self: cs,NA,NA
+v467k,haven_labelled|vctrs_vctr|double,na - getting medical help for self: cs,NA,NA
+v467l,haven_labelled|vctrs_vctr|double,na - getting medical help for self: cs,NA,NA
+v467m,haven_labelled|vctrs_vctr|double,na - getting medical help for self: cs,NA,NA
+v468,haven_labelled|vctrs_vctr|double,record for last birth,NA,NA
+v471a,haven_labelled|vctrs_vctr|double,"na - woman had tinned, powdered or fresh milk",NA,NA
+v471b,haven_labelled|vctrs_vctr|double,na - woman had tea or coffee,NA,NA
+v471c,haven_labelled|vctrs_vctr|double,woman had any other liquid,NA,NA
+v471cs,haven_labelled|vctrs_vctr|double,woman other liquid - sweetened,NA,NA
+v471d,haven_labelled|vctrs_vctr|double,woman had sodas/malt/sports/energy drinks,NA,NA
+v471e,haven_labelled|vctrs_vctr|double,"woman had fruit juice, fruit-flavored drinks",NA,NA
+v471f,haven_labelled|vctrs_vctr|double,na - woman had cs liquid,NA,NA
+v471g,haven_labelled|vctrs_vctr|double,na - woman had cs liquid,NA,NA
+v471h,haven_labelled|vctrs_vctr|double,na - woman had cs liquid,NA,NA
+v471i,haven_labelled|vctrs_vctr|double,na - woman had cs liquid,NA,NA
+v472a,haven_labelled|vctrs_vctr|double,woman had other vegetables,NA,NA
+v472b,haven_labelled|vctrs_vctr|double,"woman had sausages, hot dogs, frankfurters, ham, bacon, salami, canned food",NA,NA
+v472c,haven_labelled|vctrs_vctr|double,"woman had nuts, seeds",NA,NA
+v472d,haven_labelled|vctrs_vctr|double,woman had any insects,NA,NA
+v472e,haven_labelled|vctrs_vctr|double,"woman had porridge, bread, rice, noodles, pasta",NA,NA
+v472f,haven_labelled|vctrs_vctr|double,"woman had plantains, white potatoes, yams, manioc cassava, or other tubers",NA,NA
+v472g,haven_labelled|vctrs_vctr|double,woman had eggs,NA,NA
+v472h,haven_labelled|vctrs_vctr|double,"woman had any other meat (beef, pork, lamb, chicken, etc)",NA,NA
+v472i,haven_labelled|vctrs_vctr|double,"woman had pumpkin, carrots, squash, sweet potatoes (yellow or orange inside)",NA,NA
+v472j,haven_labelled|vctrs_vctr|double,woman had any dark green leafy vegetables,NA,NA
+v472k,haven_labelled|vctrs_vctr|double,"woman had mangoes, papayas, other vitamin a fruits",NA,NA
+v472l,haven_labelled|vctrs_vctr|double,woman had any other fruits,NA,NA
+v472m,haven_labelled|vctrs_vctr|double,"woman had liver, heart, other organs",NA,NA
+v472n,haven_labelled|vctrs_vctr|double,woman had fish or shellfish,NA,NA
+v472o,haven_labelled|vctrs_vctr|double,"woman had food made from beans, peas, lentils",NA,NA
+v472p,haven_labelled|vctrs_vctr|double,"woman had cheese, yogurt, other milk products",NA,NA
+v472q,haven_labelled|vctrs_vctr|double,"na - woman had oil, fats, butter, products made of them",NA,NA
+v472r,haven_labelled|vctrs_vctr|double,"woman had cakes, candies, pastries, sweet biscuits, chin chin, puff, etc",NA,NA
+v472s,haven_labelled|vctrs_vctr|double,woman had any other food,NA,NA
+v472t,haven_labelled|vctrs_vctr|double,"woman had chips, crisps, french fries, fried dough, instant noodles",NA,NA
+v472u,haven_labelled|vctrs_vctr|double,woman had red palm oil,NA,NA
+v472v,haven_labelled|vctrs_vctr|double,"woman had sweetened tea, coffee or herbal drinks",NA,NA
+v472w,haven_labelled|vctrs_vctr|double,"woman had sweets, chocolates, ice cream, or sesame brittle",NA,NA
+v472wa,haven_labelled|vctrs_vctr|double,na - woman had cs foods,NA,NA
+v472wb,haven_labelled|vctrs_vctr|double,na - woman had cs foods,NA,NA
+v472wc,haven_labelled|vctrs_vctr|double,na - woman had cs foods,NA,NA
+v472wd,haven_labelled|vctrs_vctr|double,na - woman had cs foods,NA,NA
+v472we,haven_labelled|vctrs_vctr|double,na - woman had cs foods,NA,NA
+v473a,haven_labelled|vctrs_vctr|double,na - read consent statement - hiv,NA,NA
+v473b,haven_labelled|vctrs_vctr|double,na - result of measurement - hiv,NA,NA
+v477,haven_labelled|vctrs_vctr|double,na - number of injections in last 12 months,NA,NA
+v478,haven_labelled|vctrs_vctr|double,na - number of injections administered by a health worker,NA,NA
+v479,haven_labelled|vctrs_vctr|double,na - place of injection by health worker,NA,NA
+v480,haven_labelled|vctrs_vctr|double,"na - syringe and needle from new, unopened package",NA,NA
+v481,haven_labelled|vctrs_vctr|double,covered by health insurance,NA,NA
+v481a,haven_labelled|vctrs_vctr|double,health insurance type: mutual/community organization,NA,NA
+v481b,haven_labelled|vctrs_vctr|double,health insurance type: provided by employer,NA,NA
+v481c,haven_labelled|vctrs_vctr|double,health insurance type: social security,NA,NA
+v481d,haven_labelled|vctrs_vctr|double,health insurance type: private/commercially purchased,NA,NA
+v481e,haven_labelled|vctrs_vctr|double,na - health insurance type: cs,NA,NA
+v481f,haven_labelled|vctrs_vctr|double,na - health insurance type: cs,NA,NA
+v481g,haven_labelled|vctrs_vctr|double,na - health insurance type: cs,NA,NA
+v481h,haven_labelled|vctrs_vctr|double,na - health insurance type: cs,NA,NA
+v481x,haven_labelled|vctrs_vctr|double,health insurance type: other,NA,NA
+v482a,haven_labelled|vctrs_vctr|double,na - arrange care of biological children under age 18,NA,NA
+v482b,haven_labelled|vctrs_vctr|double,na - primary caregiver of children under age 18,NA,NA
+v482c,haven_labelled|vctrs_vctr|double,na - arrange care of non-biological children < 18,NA,NA
+v483a,haven_labelled|vctrs_vctr|double,minutes to nearest healthcare facility,NA,NA
+v483b,haven_labelled|vctrs_vctr|double,mode of transportation to nearest healthcare facility,NA,NA
+v484a,haven_labelled|vctrs_vctr|double,breasts examined for cancer by health care provider,NA,NA
+v484b,haven_labelled|vctrs_vctr|double,ever tested for cervical cancer by health care provider,NA,NA
+v485a,haven_labelled|vctrs_vctr|double,number of days respondent drank alcoholic drinks in the past month,NA,NA
+v485b,haven_labelled|vctrs_vctr|double,number of alcoholic drinks per day,NA,NA
+v501,haven_labelled|vctrs_vctr|double,current marital status,NA,NA
+v502,haven_labelled|vctrs_vctr|double,currently/formerly/never in union,NA,NA
+v503,haven_labelled|vctrs_vctr|double,number of unions,NA,NA
+v504,haven_labelled|vctrs_vctr|double,currently residing with husband/partner,NA,NA
+v505,haven_labelled|vctrs_vctr|double,number of other wives,NA,NA
+v506,haven_labelled|vctrs_vctr|double,respondent's rank among wives,NA,NA
+v507,numeric,month of first cohabitation,NA,NA
+v508,numeric,year of first cohabitation,NA,NA
+v509,numeric,date of first cohabitation (cmc),NA,NA
+v510,haven_labelled|vctrs_vctr|double,completeness of date information in v509,NA,NA
+v511,numeric,age at first cohabitation,NA,NA
+v507a,numeric,month of current cohabitation,NA,NA
+v508a,numeric,year of current cohabitation,NA,NA
+v509a,numeric,date of current cohabitation (cmc),NA,NA
+v510a,haven_labelled|vctrs_vctr|double,completeness of date information in v509a,NA,NA
+v511a,numeric,age at current cohabitation,NA,NA
+v512,numeric,years since first cohabitation,NA,NA
+v513,haven_labelled|vctrs_vctr|double,cohabitation duration (grouped),NA,NA
+v525,haven_labelled|vctrs_vctr|double,age at first sex,NA,NA
+v527,haven_labelled|vctrs_vctr|double,time since last sex,NA,NA
+v528,haven_labelled|vctrs_vctr|double,time since last sex (in days),NA,NA
+v529,haven_labelled|vctrs_vctr|double,time since last sex (in months),NA,NA
+v530,haven_labelled|vctrs_vctr|double,flag for v529,NA,NA
+v531,haven_labelled|vctrs_vctr|double,age at first sex (imputed),NA,NA
+v532,haven_labelled|vctrs_vctr|double,flag for v531,NA,NA
+v535,haven_labelled|vctrs_vctr|double,ever been married or in union,NA,NA
+v536,haven_labelled|vctrs_vctr|double,recent sexual activity,NA,NA
+v537,haven_labelled|vctrs_vctr|double,months of abstinence,NA,NA
+v538,haven_labelled|vctrs_vctr|double,na - how previous marriage or union ended,NA,NA
+v539,haven_labelled|vctrs_vctr|double,na - person who received most of late husband's property,NA,NA
+v540,haven_labelled|vctrs_vctr|double,na - respondent received any of late husband's assets or valuables,NA,NA
+v541,haven_labelled|vctrs_vctr|double,na - intends to wait until marriage to have sex,NA,NA
+v542,haven_labelled|vctrs_vctr|double,has a marriage certificate for current marriage/union,NA,NA
+v543a,haven_labelled|vctrs_vctr|double,"marriage certificate from church, mosque or other religious institution",NA,NA
+v543b,haven_labelled|vctrs_vctr|double,marriage certificate from civil authority,NA,NA
+v543c,haven_labelled|vctrs_vctr|double,other document from religious institution,NA,NA
+v543d,haven_labelled|vctrs_vctr|double,other document from civil authority,NA,NA
+v543e,haven_labelled|vctrs_vctr|double,na - marriage document: cs,NA,NA
+v543f,haven_labelled|vctrs_vctr|double,na - marriage document: cs,NA,NA
+v543g,haven_labelled|vctrs_vctr|double,na - marriage document: cs,NA,NA
+v543x,haven_labelled|vctrs_vctr|double,other marriage document:,NA,NA
+v544,haven_labelled|vctrs_vctr|double,current marriage ever registered with civil authority,NA,NA
+v602,haven_labelled|vctrs_vctr|double,fertility preference,NA,NA
+v603,haven_labelled|vctrs_vctr|double,preferred waiting time for birth of a/another child,NA,NA
+v604,haven_labelled|vctrs_vctr|double,preferred waiting time for birth of a/another child (grouped),NA,NA
+v605,haven_labelled|vctrs_vctr|double,desire for more children,NA,NA
+v613,haven_labelled|vctrs_vctr|double,ideal number of children,NA,NA
+v614,haven_labelled|vctrs_vctr|double,ideal number of children (grouped),NA,NA
+v616,haven_labelled|vctrs_vctr|double,time for future birth,NA,NA
+v621,haven_labelled|vctrs_vctr|double,husband's desire for children,NA,NA
+v623,haven_labelled|vctrs_vctr|double,exposure,NA,NA
+v624,haven_labelled|vctrs_vctr|double,unmet need,NA,NA
+v625,haven_labelled|vctrs_vctr|double,exposure (definition 2),NA,NA
+v626,haven_labelled|vctrs_vctr|double,unmet need (definition 2),NA,NA
+v625a,haven_labelled|vctrs_vctr|double,exposure to need for contraception (definition 3),NA,NA
+v626a,haven_labelled|vctrs_vctr|double,unmet need for contraception (definition 3),NA,NA
+v627,haven_labelled|vctrs_vctr|double,ideal number of boys,NA,NA
+v628,haven_labelled|vctrs_vctr|double,ideal number of girls,NA,NA
+v629,haven_labelled|vctrs_vctr|double,ideal number of either sex,NA,NA
+v631,haven_labelled|vctrs_vctr|double,na - problem if became pregnant,NA,NA
+v632,haven_labelled|vctrs_vctr|double,decision maker for using contraception,NA,NA
+v632a,haven_labelled|vctrs_vctr|double,na - decision maker for not using contraception,NA,NA
+v633a,haven_labelled|vctrs_vctr|double,na - reason for not having sex: husband has sti,NA,NA
+v633b,haven_labelled|vctrs_vctr|double,reason for not having sex: husband has other women,NA,NA
+v633c,haven_labelled|vctrs_vctr|double,na - reason for not having sex: recent birth,NA,NA
+v633d,haven_labelled|vctrs_vctr|double,"na - reason for not having sex: tired, not in mood",NA,NA
+v633e,haven_labelled|vctrs_vctr|double,na - reason for not having sex: cs,NA,NA
+v633f,haven_labelled|vctrs_vctr|double,na - reason for not having sex: cs,NA,NA
+v633g,haven_labelled|vctrs_vctr|double,na - reason for not having sex: cs,NA,NA
+v634,haven_labelled|vctrs_vctr|double,na - husband knows that respondent is using contraception,NA,NA
+v635,haven_labelled|vctrs_vctr|double,respondent opinion compared to husband's on use of contraception,NA,NA
+v636,haven_labelled|vctrs_vctr|double,husband or family member pressured respondent to become pregnant,NA,NA
+v701,haven_labelled|vctrs_vctr|double,husband/partner's education level,NA,NA
+v702,haven_labelled|vctrs_vctr|double,husband/partner's highest year of education (at level in v701),NA,NA
+v704,haven_labelled|vctrs_vctr|double,husband/partner's occupation,NA,NA
+v704a,haven_labelled|vctrs_vctr|double,husband/partner worked in last 7 days/12 months,NA,NA
+v705,haven_labelled|vctrs_vctr|double,husband/partner's occupation (grouped),NA,NA
+v714,haven_labelled|vctrs_vctr|double,respondent currently working,NA,NA
+v714a,haven_labelled|vctrs_vctr|double,"respondent has a job, but currently absent",NA,NA
+v715,haven_labelled|vctrs_vctr|double,husband/partner's total number of years of education,NA,NA
+v716,haven_labelled|vctrs_vctr|double,respondent's occupation,NA,NA
+v717,haven_labelled|vctrs_vctr|double,respondent's occupation (grouped),NA,NA
+v719,haven_labelled|vctrs_vctr|double,"respondent works for family, others, self",NA,NA
+v721,haven_labelled|vctrs_vctr|double,na - respondent works at home or away,NA,NA
+v729,haven_labelled|vctrs_vctr|double,husband/partner's educational attainment,NA,NA
+v730,haven_labelled|vctrs_vctr|double,husband/partner's age,NA,NA
+v731,haven_labelled|vctrs_vctr|double,respondent worked in last 12 months,NA,NA
+v732,haven_labelled|vctrs_vctr|double,respondent employed all year/seasonal,NA,NA
+v739,haven_labelled|vctrs_vctr|double,person who usually decides how to spend respondent's earnings,NA,NA
+v740,haven_labelled|vctrs_vctr|double,na - type of land where respondent works,NA,NA
+v741,haven_labelled|vctrs_vctr|double,type of earnings from respondent's work,NA,NA
+v743a,haven_labelled|vctrs_vctr|double,person who usually decides on: respondent's health care,NA,NA
+v743b,haven_labelled|vctrs_vctr|double,person who usually decides on: large household purchases,NA,NA
+v743c,haven_labelled|vctrs_vctr|double,na - person who usually decides on: household purchases for daily needs,NA,NA
+v743d,haven_labelled|vctrs_vctr|double,person who usually decides on: visits to family or relatives,NA,NA
+v743e,haven_labelled|vctrs_vctr|double,na - person who usually decides on: food to be cooked each day,NA,NA
+v743f,haven_labelled|vctrs_vctr|double,person who usually decides on: what to do with money husband earns,NA,NA
+v744a,haven_labelled|vctrs_vctr|double,beating justified if wife goes out without telling husband,NA,NA
+v744b,haven_labelled|vctrs_vctr|double,beating justified if wife neglects the children,NA,NA
+v744c,haven_labelled|vctrs_vctr|double,beating justified if wife argues with husband,NA,NA
+v744d,haven_labelled|vctrs_vctr|double,beating justified if wife refuses to have sex with husband,NA,NA
+v744e,haven_labelled|vctrs_vctr|double,beating justified if wife burns the food,NA,NA
+v745a,haven_labelled|vctrs_vctr|double,owns a house alone or jointly,NA,NA
+v745b,haven_labelled|vctrs_vctr|double,owns land alone or jointly,NA,NA
+v745c,haven_labelled|vctrs_vctr|double,title deed on house own by respondent,NA,NA
+v745d,haven_labelled|vctrs_vctr|double,title deed on land own by respondent,NA,NA
+v746,haven_labelled|vctrs_vctr|double,respondent earns more than husband/partner,NA,NA
+bidxp,numeric,index to pregnancy history,NA,NA
+bord,numeric,birth order number,NA,NA
+b0,haven_labelled|vctrs_vctr|double,child is twin,NA,NA
+b1,numeric,month of birth,NA,NA
+b2,numeric,year of birth,NA,NA
+b3,numeric,date of birth (cmc),NA,NA
+b4,haven_labelled|vctrs_vctr|double,sex of child,NA,NA
+b5,haven_labelled|vctrs_vctr|double,child is alive,NA,NA
+b6,haven_labelled|vctrs_vctr|double,age at death,NA,NA
+b7,numeric,"age at death (months, imputed)",NA,NA
+b8,numeric,current age of child,NA,NA
+b9,haven_labelled|vctrs_vctr|double,child lives with whom,NA,NA
+b10,haven_labelled|vctrs_vctr|double,completeness of information,NA,NA
+b11,numeric,preceding birth interval (months),NA,NA
+b12,numeric,succeeding birth interval (months),NA,NA
+b13,haven_labelled|vctrs_vctr|double,flag for age at death,NA,NA
+b15,haven_labelled|vctrs_vctr|double,live birth between births,NA,NA
+b16,haven_labelled|vctrs_vctr|double,child's line number in household,NA,NA
+b17,numeric,day of birth,NA,NA
+b18,numeric,century day code of birth (cdc),NA,NA
+b19,numeric,current age of child in months (months since birth for dead children),NA,NA
+b20,numeric,duration of pregnancy in months,NA,NA
+b21,numeric,duration of pregnancy,NA,NA
+midx,haven_labelled|vctrs_vctr|double,index to birth history,NA,NA
+midxp,numeric,index to pregnancy history,NA,NA
+m1,haven_labelled|vctrs_vctr|double,number of tetanus injections before birth,NA,NA
+m1a,haven_labelled|vctrs_vctr|double,number of tetanus injections before pregnancy,NA,NA
+m1b,haven_labelled|vctrs_vctr|double,na - month of last tetanus injection before pregnancy,NA,NA
+m1c,haven_labelled|vctrs_vctr|double,na - year of last tetanus injection before pregnancy,NA,NA
+m1d,numeric,years ago received last tetanus injection before pregnancy,NA,NA
+m1e,haven_labelled|vctrs_vctr|double,last tetanus injection before pregnancy (cmc),NA,NA
+m2a,haven_labelled|vctrs_vctr|double,prenatal: doctor,NA,NA
+m2b,haven_labelled|vctrs_vctr|double,prenatal: nurse/midwife,NA,NA
+m2c,haven_labelled|vctrs_vctr|double,prenatal: community health extension worker,NA,NA
+m2d,haven_labelled|vctrs_vctr|double,na - prenatal: cs health professional,NA,NA
+m2e,haven_labelled|vctrs_vctr|double,na - prenatal: cs health professional,NA,NA
+m2f,haven_labelled|vctrs_vctr|double,na - prenatal: cs health professional,NA,NA
+m2g,haven_labelled|vctrs_vctr|double,prenatal: traditional birth attendant,NA,NA
+m2h,haven_labelled|vctrs_vctr|double,prenatal: auxiliary midwife,NA,NA
+m2i,haven_labelled|vctrs_vctr|double,prenatal: comm health influencers/promoters/field workers,NA,NA
+m2j,haven_labelled|vctrs_vctr|double,na - prenatal: cs other person,NA,NA
+m2k,haven_labelled|vctrs_vctr|double,prenatal: other,NA,NA
+m2l,haven_labelled|vctrs_vctr|double,na - prenatal: cs other,NA,NA
+m2m,haven_labelled|vctrs_vctr|double,na - prenatal: cs other,NA,NA
+m2n,haven_labelled|vctrs_vctr|double,prenatal: no one,NA,NA
+m3a,haven_labelled|vctrs_vctr|double,assistance: doctor,NA,NA
+m3b,haven_labelled|vctrs_vctr|double,assistance: nurse/midwife,NA,NA
+m3c,haven_labelled|vctrs_vctr|double,assistance: community health extension worker,NA,NA
+m3d,haven_labelled|vctrs_vctr|double,na - assistance: cs health professional,NA,NA
+m3e,haven_labelled|vctrs_vctr|double,na - assistance: cs health professional,NA,NA
+m3f,haven_labelled|vctrs_vctr|double,na - assistance: cs health professional,NA,NA
+m3g,haven_labelled|vctrs_vctr|double,assistance: traditional birth attendant,NA,NA
+m3h,haven_labelled|vctrs_vctr|double,assistance: auxiliary midwife,NA,NA
+m3i,haven_labelled|vctrs_vctr|double,assistance: relative/friend,NA,NA
+m3j,haven_labelled|vctrs_vctr|double,assistance: comm health influencers/promoters/field workers,NA,NA
+m3k,haven_labelled|vctrs_vctr|double,assistance: other,NA,NA
+m3l,haven_labelled|vctrs_vctr|double,na - assistance: cs other,NA,NA
+m3m,haven_labelled|vctrs_vctr|double,na - assistance: cs other,NA,NA
+m3n,haven_labelled|vctrs_vctr|double,assistance: no one,NA,NA
+m4,haven_labelled|vctrs_vctr|double,duration of breastfeeding,NA,NA
+m5,haven_labelled|vctrs_vctr|double,months of breastfeeding,NA,NA
+m6,haven_labelled|vctrs_vctr|double,duration of amenorrhea,NA,NA
+m7,haven_labelled|vctrs_vctr|double,months of amenorrhea,NA,NA
+m8,haven_labelled|vctrs_vctr|double,duration of abstinence,NA,NA
+m9,haven_labelled|vctrs_vctr|double,months of abstinence,NA,NA
+m10,haven_labelled|vctrs_vctr|double,wanted pregnancy when became pregnant,NA,NA
+m11,haven_labelled|vctrs_vctr|double,desired time would have waited,NA,NA
+m13,haven_labelled|vctrs_vctr|double,timing of 1st antenatal check (months),NA,NA
+m13a,haven_labelled|vctrs_vctr|double,timing of 1st antenatal check (original),NA,NA
+m14,haven_labelled|vctrs_vctr|double,number of antenatal visits during pregnancy,NA,NA
+m15,haven_labelled|vctrs_vctr|double,place of delivery,NA,NA
+m17,haven_labelled|vctrs_vctr|double,delivery by caesarean section,NA,NA
+m17a,haven_labelled|vctrs_vctr|double,na - timing on decision for caesarean section,NA,NA
+m18,haven_labelled|vctrs_vctr|double,size of child at birth,NA,NA
+m19,haven_labelled|vctrs_vctr|double,birth weight in kilograms (3 decimals),NA,NA
+m19a,haven_labelled|vctrs_vctr|double,weight at birth/recall,NA,NA
+m27,haven_labelled|vctrs_vctr|double,na - flag for breastfeeding,NA,NA
+m28,haven_labelled|vctrs_vctr|double,na - flag for amenorrhea,NA,NA
+m29,haven_labelled|vctrs_vctr|double,na - flag for abstinence,NA,NA
+m34,haven_labelled|vctrs_vctr|double,when child put to breast,NA,NA
+m35,haven_labelled|vctrs_vctr|double,na - number of times breastfed during previous night,NA,NA
+m36,haven_labelled|vctrs_vctr|double,na - number of times breastfed during previous day,NA,NA
+m38,haven_labelled|vctrs_vctr|double,drank from bottle with nipple yesterday/last night,NA,NA
+m39a,haven_labelled|vctrs_vctr|double,"did eat any solid, semi-solid or soft foods yesterday",NA,NA
+m39,haven_labelled|vctrs_vctr|double,"number of times ate solid, semi-solid or soft food yesterday",NA,NA
+m42a,haven_labelled|vctrs_vctr|double,na - during pregnancy: weighed,NA,NA
+m42b,haven_labelled|vctrs_vctr|double,na - during pregnancy: height measured,NA,NA
+m42c,haven_labelled|vctrs_vctr|double,during pregnancy: blood pressure taken,NA,NA
+m42d,haven_labelled|vctrs_vctr|double,during pregnancy: urine sample taken,NA,NA
+m42e,haven_labelled|vctrs_vctr|double,during pregnancy: blood sample taken,NA,NA
+m42f,haven_labelled|vctrs_vctr|double,during pregnancy: listen to baby's heartbeat,NA,NA
+m42g,haven_labelled|vctrs_vctr|double,during pregnancy: talk about foods to eat,NA,NA
+m42h,haven_labelled|vctrs_vctr|double,during pregnancy: talk about breastfeeding,NA,NA
+m42i,haven_labelled|vctrs_vctr|double,during pregnancy: ask about vaginal bleeding,NA,NA
+m42j,haven_labelled|vctrs_vctr|double,na - during pregnancy: talk about when baby is due,NA,NA
+m42k,haven_labelled|vctrs_vctr|double,na - during pregnancy: pay attention to baby movements,NA,NA
+m42l,haven_labelled|vctrs_vctr|double,na - during pregnancy: cs,NA,NA
+m42m,haven_labelled|vctrs_vctr|double,na - during pregnancy: cs,NA,NA
+m42n,haven_labelled|vctrs_vctr|double,na - during pregnancy: cs,NA,NA
+m43,haven_labelled|vctrs_vctr|double,na - told about pregnancy complications,NA,NA
+m44,haven_labelled|vctrs_vctr|double,na - told where to go for pregnancy complications,NA,NA
+m45,haven_labelled|vctrs_vctr|double,"during pregnancy, given or bought iron tablets/syrup",NA,NA
+m46,haven_labelled|vctrs_vctr|double,days tablets or syrup taken,NA,NA
+m47,haven_labelled|vctrs_vctr|double,"na - during pregnancy, had difficulty with daylight vision",NA,NA
+m48,haven_labelled|vctrs_vctr|double,"na - during pregnancy, had difficulty with night blindness",NA,NA
+m49a,haven_labelled|vctrs_vctr|double,during pregnancy took: sp/fansidar for malaria,NA,NA
+m49b,haven_labelled|vctrs_vctr|double,na - during pregnancy took: chloroquine for malaria,NA,NA
+m49c,haven_labelled|vctrs_vctr|double,na - during pregnancy took: cs drug for malaria,NA,NA
+m49d,haven_labelled|vctrs_vctr|double,na - during pregnancy took: cs drug for malaria,NA,NA
+m49e,haven_labelled|vctrs_vctr|double,na - during pregnancy took: cs drug for malaria,NA,NA
+m49f,haven_labelled|vctrs_vctr|double,na - during pregnancy took: cs drug for malaria,NA,NA
+m49g,haven_labelled|vctrs_vctr|double,na - during pregnancy took: cs drug for malaria,NA,NA
+m49x,haven_labelled|vctrs_vctr|double,na - during pregnancy took: other drug for malaria,NA,NA
+m49z,haven_labelled|vctrs_vctr|double,na - during pregnancy took: don't know,NA,NA
+m49y,haven_labelled|vctrs_vctr|double,na - during pregnancy took: no drug for malaria,NA,NA
+m54,haven_labelled|vctrs_vctr|double,na - received vitamin a dose in first 2 months after delivery,NA,NA
+m55,haven_labelled|vctrs_vctr|double,given child anything other than breast milk,NA,NA
+m57a,haven_labelled|vctrs_vctr|double,antenatal care: respondent's home,NA,NA
+m57b,haven_labelled|vctrs_vctr|double,antenatal care: other home,NA,NA
+m57c,haven_labelled|vctrs_vctr|double,na - antenatal care: cs home,NA,NA
+m57d,haven_labelled|vctrs_vctr|double,na - antenatal care: cs home,NA,NA
+m57e,haven_labelled|vctrs_vctr|double,antenatal care: teaching hospital,NA,NA
+m57f,haven_labelled|vctrs_vctr|double,antenatal care: federal medical center,NA,NA
+m57g,haven_labelled|vctrs_vctr|double,antenatal care: general hospital,NA,NA
+m57h,haven_labelled|vctrs_vctr|double,antenatal care: primary health care center,NA,NA
+m57i,haven_labelled|vctrs_vctr|double,antenatal care: primary health clinic,NA,NA
+m57j,haven_labelled|vctrs_vctr|double,antenatal care: health post,NA,NA
+m57k,haven_labelled|vctrs_vctr|double,antenatal care: other public sector,NA,NA
+m57l,haven_labelled|vctrs_vctr|double,na - antenatal care: cs public health,NA,NA
+m57m,haven_labelled|vctrs_vctr|double,antenatal care: private hospital,NA,NA
+m57n,haven_labelled|vctrs_vctr|double,antenatal care: private clinic,NA,NA
+m57o,haven_labelled|vctrs_vctr|double,antenatal care: pharmacy,NA,NA
+m57p,haven_labelled|vctrs_vctr|double,antenatal care: patent & proprietary medicine vendors (ppmv),NA,NA
+m57q,haven_labelled|vctrs_vctr|double,antenatal care: private doctor,NA,NA
+m57r,haven_labelled|vctrs_vctr|double,antenatal care: mobile clinic,NA,NA
+m57s,haven_labelled|vctrs_vctr|double,antenatal care: maternity center,NA,NA
+m57t,haven_labelled|vctrs_vctr|double,antenatal care: other private medical sector,NA,NA
+m57na,haven_labelled|vctrs_vctr|double,antenatal care: faith-based hospital,NA,NA
+m57nb,haven_labelled|vctrs_vctr|double,antenatal care: faith-based clinic,NA,NA
+m57nc,haven_labelled|vctrs_vctr|double,antenatal care: other ngo medical sector,NA,NA
+m57nd,haven_labelled|vctrs_vctr|double,na - antenatal care: ngo medical,NA,NA
+m57ne,haven_labelled|vctrs_vctr|double,na - antenatal care: ngo medical,NA,NA
+m57u,haven_labelled|vctrs_vctr|double,na - antenatal care: cs other,NA,NA
+m57v,haven_labelled|vctrs_vctr|double,na - antenatal care: cs other,NA,NA
+m57x,haven_labelled|vctrs_vctr|double,antenatal care: other,NA,NA
+m60,haven_labelled|vctrs_vctr|double,drugs for intestinal parasites during pregnancy,NA,NA
+m61,haven_labelled|vctrs_vctr|double,time spent at place of delivery,NA,NA
+m62,haven_labelled|vctrs_vctr|double,respondent's health checked after delivery before discharge,NA,NA
+m63,haven_labelled|vctrs_vctr|double,how long after delivery respondent's health check before discharge took place,NA,NA
+m64,haven_labelled|vctrs_vctr|double,who checked respondent's health before discharge,NA,NA
+m66,haven_labelled|vctrs_vctr|double,respondent's health checked after discharge/delivery at home,NA,NA
+m67,haven_labelled|vctrs_vctr|double,how long after delivery respondent's health check (after discharge/home delivery,NA,NA
+m68,haven_labelled|vctrs_vctr|double,who checked respondent's health after discharge/delivery at home,NA,NA
+m69,haven_labelled|vctrs_vctr|double,where respondent's check after discharge/delivery at home took place,NA,NA
+m70,haven_labelled|vctrs_vctr|double,child's health checked after discharge/delivery at home,NA,NA
+m71,haven_labelled|vctrs_vctr|double,how long after delivery child's health check (after discharge/home delivery) too,NA,NA
+m72,haven_labelled|vctrs_vctr|double,who checked child's health after discharge/home delivery,NA,NA
+m73,haven_labelled|vctrs_vctr|double,where child's health check after discharge/home delivery took place,NA,NA
+m74,haven_labelled|vctrs_vctr|double,child's health checked before discharge,NA,NA
+m75,haven_labelled|vctrs_vctr|double,how long after delivery child's health check before discharge took place,NA,NA
+m76,haven_labelled|vctrs_vctr|double,who checked child's health before discharge,NA,NA
+m77,haven_labelled|vctrs_vctr|double,was child put on mother's chest and bare skin after birth,NA,NA
+m77a,haven_labelled|vctrs_vctr|double,time after birth baby was put on bare skin,NA,NA
+m78a,haven_labelled|vctrs_vctr|double,during first 2 days health provider: examine cord,NA,NA
+m78b,haven_labelled|vctrs_vctr|double,during first 2 days health provider: measure temperature,NA,NA
+m78c,haven_labelled|vctrs_vctr|double,during first 2 days health provider: signs baby needs medical attentions,NA,NA
+m78d,haven_labelled|vctrs_vctr|double,during first 2 days health provider: counsel on breastfeeding,NA,NA
+m78e,haven_labelled|vctrs_vctr|double,during first 2 days health provider: observe breastfeeding,NA,NA
+m78f,haven_labelled|vctrs_vctr|double,during first 2 days health provider: measure blood pressure,NA,NA
+m78g,haven_labelled|vctrs_vctr|double,during first 2 days health provider: discuss vaginal bleeding,NA,NA
+m78h,haven_labelled|vctrs_vctr|double,during first 2 days health provider: discuss family planning,NA,NA
+m78i,haven_labelled|vctrs_vctr|double,na - during first 2 days health provider: tell where to get help with breastfeed,NA,NA
+m78j,haven_labelled|vctrs_vctr|double,na - during first 2 days health provider: ask if have problems with urination,NA,NA
+m78k,haven_labelled|vctrs_vctr|double,na - during first 2 days health provider: ask if have pain,NA,NA
+m78l,haven_labelled|vctrs_vctr|double,na - during first 2 days health provider: ask if feel sad or depressed,NA,NA
+m78m,haven_labelled|vctrs_vctr|double,na - during first 2 days health provider: cs,NA,NA
+m78n,haven_labelled|vctrs_vctr|double,na - during first 2 days health provider: cs,NA,NA
+m78o,haven_labelled|vctrs_vctr|double,na - during first 2 days health provider: cs,NA,NA
+m78p,haven_labelled|vctrs_vctr|double,na - during first 2 days health provider: cs,NA,NA
+m80,haven_labelled|vctrs_vctr|double,pregnancy outcome for this section,NA,NA
+m81a,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: teaching hospital,NA,NA
+m81b,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: federal medical center,NA,NA
+m81c,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: general hospital,NA,NA
+m81d,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: primary health care center,NA,NA
+m81e,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: primary health clinic,NA,NA
+m81f,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: health post,NA,NA
+m81g,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: other public sector,NA,NA
+m81h,haven_labelled|vctrs_vctr|double,na - place obtained iron tablets/syrup: cs public sector,NA,NA
+m81i,haven_labelled|vctrs_vctr|double,na - place obtained iron tablets/syrup: cs public sector,NA,NA
+m81j,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: private hospital,NA,NA
+m81k,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: pharmacy,NA,NA
+m81l,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: private doctor,NA,NA
+m81m,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: private clinic,NA,NA
+m81n,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: patent & proprietary medicine vendors (ppmv),NA,NA
+m81o,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: mobile clinic,NA,NA
+m81p,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: maternity center,NA,NA
+m81q,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: other private medical center,NA,NA
+m81r,haven_labelled|vctrs_vctr|double,na - place obtained iron tablets/syrup: cs private medical,NA,NA
+m81na,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: faith-based hospital,NA,NA
+m81nb,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: faith-based clinic,NA,NA
+m81nc,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: other ngo medical sector,NA,NA
+m81nd,haven_labelled|vctrs_vctr|double,na - place obtained iron tablets/syrup: cs ngo,NA,NA
+m81ne,haven_labelled|vctrs_vctr|double,na - place obtained iron tablets/syrup: cs ngo,NA,NA
+m81s,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: shop,NA,NA
+m81t,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: market,NA,NA
+m81u,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: mass distribution campaign,NA,NA
+m81v,haven_labelled|vctrs_vctr|double,na - place obtained iron tablets/syrup: cs other sector,NA,NA
+m81w,haven_labelled|vctrs_vctr|double,na - place obtained iron tablets/syrup: cs other sector,NA,NA
+m81x,haven_labelled|vctrs_vctr|double,place obtained iron tablets/syrup: other,NA,NA
+m82,haven_labelled|vctrs_vctr|double,na - during pregnancy received food/cash through assistance program,NA,NA
+ml0,haven_labelled|vctrs_vctr|double,type of mosquito bed net(s) child slept under last night,NA,NA
+ml1,haven_labelled|vctrs_vctr|double,number of times took fansidar during pregnancy,NA,NA
+ml2,haven_labelled|vctrs_vctr|double,source of antimalarial during pregnancy,NA,NA
+mnb1,haven_labelled|vctrs_vctr|double,time after birth child was bathed,NA,NA
+mnb3,haven_labelled|vctrs_vctr|double,device used to cut the cord,NA,NA
+mnb4,haven_labelled|vctrs_vctr|double,was the device new or had it been used before,NA,NA
+mnb5,haven_labelled|vctrs_vctr|double,was the device boiled before used to cut the cord,NA,NA
+mnb6,haven_labelled|vctrs_vctr|double,anything applied to the cord from the time it was cut until it fell off,NA,NA
+mnb7a,haven_labelled|vctrs_vctr|double,what was applied to the cord: chlorhexidine,NA,NA
+mnb7b,haven_labelled|vctrs_vctr|double,"what was applied to the cord: other antiseptic (alcohol, spirit, gentian violet)",NA,NA
+mnb7c,haven_labelled|vctrs_vctr|double,what was applied to the cord: mustard oil,NA,NA
+mnb7d,haven_labelled|vctrs_vctr|double,what was applied to the cord: ash,NA,NA
+mnb7e,haven_labelled|vctrs_vctr|double,what was applied to the cord: animal dung,NA,NA
+mnb7f,haven_labelled|vctrs_vctr|double,what was applied to the cord: spirit,NA,NA
+mnb7g,haven_labelled|vctrs_vctr|double,what was applied to the cord: gentian violet,NA,NA
+mnb7h,haven_labelled|vctrs_vctr|double,what was applied to the cord: other antiseptic (alcohol etc.),NA,NA
+mnb7i,haven_labelled|vctrs_vctr|double,what was applied to the cord: toothpaste,NA,NA
+mnb7j,haven_labelled|vctrs_vctr|double,what was applied to the cord: vaseline,NA,NA
+mnb7x,haven_labelled|vctrs_vctr|double,what was applied to the cord: other,NA,NA
+mnb7z,haven_labelled|vctrs_vctr|double,what was applied to the cord: don't know,NA,NA
+mnb10,haven_labelled|vctrs_vctr|double,was chlorhexidine applied to the cord at any time,NA,NA
+mnb11,haven_labelled|vctrs_vctr|double,time after cord was cut chlorhexidine was first applied,NA,NA
+mnb12,haven_labelled|vctrs_vctr|double,days chlorhexidine was applied to the cord,NA,NA
+mh3a,haven_labelled|vctrs_vctr|double,na - during antenatal care discussed: where to deliver baby,NA,NA
+mh3b,haven_labelled|vctrs_vctr|double,"na - during antenatal care discussed: if wanted a relative, friend, neighbor dur",NA,NA
+mh3c,haven_labelled|vctrs_vctr|double,na - during antenatal care discussed: transportation to delivery place,NA,NA
+mh3d,haven_labelled|vctrs_vctr|double,na - during antenatal care discussed: source of funds for delivery,NA,NA
+mh3e,haven_labelled|vctrs_vctr|double,na - during antenatal care discussed: asking someone as blood donor if necessary,NA,NA
+mh3f,haven_labelled|vctrs_vctr|double,na - during antenatal care discussed: find healthcare provider to deliver child,NA,NA
+mh3g,haven_labelled|vctrs_vctr|double,na - during antenatal care discussed: cs,NA,NA
+mh3h,haven_labelled|vctrs_vctr|double,na - during antenatal care discussed: cs,NA,NA
+mh3i,haven_labelled|vctrs_vctr|double,na - during antenatal care discussed: cs,NA,NA
+mh5,haven_labelled|vctrs_vctr|double,na - healthcare provider measure blood pressure before delivery,NA,NA
+mh6,haven_labelled|vctrs_vctr|double,na - while in labor wanted to have someone by your side,NA,NA
+mh7,haven_labelled|vctrs_vctr|double,na - while in labor the person you wanted by your side was with you,NA,NA
+mh8,haven_labelled|vctrs_vctr|double,na - while in labor how much time the person you wanted by your side was allowed,NA,NA
+mh9,haven_labelled|vctrs_vctr|double,na - reason the person you wanted by your side was not with you during labor,NA,NA
+mh10,haven_labelled|vctrs_vctr|double,na - during delivery wanted to have someone by your side,NA,NA
+mh11,haven_labelled|vctrs_vctr|double,na - during delivery the person you wanted by your side was with you,NA,NA
+mh12,haven_labelled|vctrs_vctr|double,na - during delivery how much time the person you wanted by your side was allowe,NA,NA
+mh13,haven_labelled|vctrs_vctr|double,na - reason the person you wanted by your side was not with you during delivery,NA,NA
+mh14,haven_labelled|vctrs_vctr|double,na - was an instrument used to help pull out the baby,NA,NA
+mh15,haven_labelled|vctrs_vctr|double,na - while in labor or delivery did feel ignored/neglected by facility staff,NA,NA
+mh16,haven_labelled|vctrs_vctr|double,na - while in labor or delivery did have privacy,NA,NA
+mh17a,haven_labelled|vctrs_vctr|double,na - at delivery place did healthcare providers: treated you with respect,NA,NA
+mh17b,haven_labelled|vctrs_vctr|double,na - at delivery place did healthcare providers: explained examinations/procedur,NA,NA
+mh17c,haven_labelled|vctrs_vctr|double,na - at delivery place did healthcare providers: took best care of you,NA,NA
+mh17d,haven_labelled|vctrs_vctr|double,na - at delivery place did healthcare providers: cs,NA,NA
+mh17e,haven_labelled|vctrs_vctr|double,na - at delivery place did healthcare providers: cs,NA,NA
+mh18a,haven_labelled|vctrs_vctr|double,na - during stay at health facility: shared bed with other patient,NA,NA
+mh18b,haven_labelled|vctrs_vctr|double,na - during stay at health facility: rest/sleep on floor without mattress,NA,NA
+mh18c,haven_labelled|vctrs_vctr|double,na - during stay at health facility: cs,NA,NA
+mh18d,haven_labelled|vctrs_vctr|double,na - during stay at health facility: cs,NA,NA
+mh19,haven_labelled|vctrs_vctr|double,na - during stay at health facility were denied medical services for lack of mon,NA,NA
+mh20,haven_labelled|vctrs_vctr|double,na - were delayed or prevented to leave facility because of lack of payment,NA,NA
+mh21a,haven_labelled|vctrs_vctr|double,na - during stay staff at health facility: slap you,NA,NA
+mh21b,haven_labelled|vctrs_vctr|double,na - during stay staff at health facility: hit or punch you,NA,NA
+mh21c,haven_labelled|vctrs_vctr|double,na - during stay staff at health facility: physically threaten you,NA,NA
+mh21d,haven_labelled|vctrs_vctr|double,na - during stay staff at health facility: physically mistreat or harm you,NA,NA
+mh21e,haven_labelled|vctrs_vctr|double,na - during stay staff at health facility: cs,NA,NA
+mh21f,haven_labelled|vctrs_vctr|double,na - during stay staff at health facility: cs,NA,NA
+mh22a,haven_labelled|vctrs_vctr|double,na - during stay staff at health facility: shout at you,NA,NA
+mh22b,haven_labelled|vctrs_vctr|double,na - during stay staff at health facility: say or do something to humiliate you,NA,NA
+mh22c,haven_labelled|vctrs_vctr|double,na - during stay staff at health facility: verbally threaten,NA,NA
+mh22d,haven_labelled|vctrs_vctr|double,na - during stay staff at health facility: verbally mistreat you in any other wa,NA,NA
+mh22e,haven_labelled|vctrs_vctr|double,na - during stay staff at health facility: cs,NA,NA
+mh22f,haven_labelled|vctrs_vctr|double,na - during stay staff at health facility: cs,NA,NA
+mh23,haven_labelled|vctrs_vctr|double,na - did health facility have toilet/latrine for patients,NA,NA
+mh24,haven_labelled|vctrs_vctr|double,na - at any time wanted to use toilet/latrine but was not working,NA,NA
+mh25,haven_labelled|vctrs_vctr|double,na - where did baby stay in first two days after birth,NA,NA
+v400,numeric,line number of child used for questions on liquids and foods,NA,NA
+v409,haven_labelled|vctrs_vctr|double,gave child plain water,NA,NA
+v409a,haven_labelled|vctrs_vctr|double,na - gave child sugar water,NA,NA
+v410,haven_labelled|vctrs_vctr|double,gave child fruit juice/fruit flavored drinks,NA,NA
+v410a,haven_labelled|vctrs_vctr|double,gave child tea or coffee/herbal drinks,NA,NA
+v410as,haven_labelled|vctrs_vctr|double,tea or coffee/herbal drink was sweetened,NA,NA
+v411,haven_labelled|vctrs_vctr|double,"gave child tinned, powdered or fresh milk",NA,NA
+v411s,haven_labelled|vctrs_vctr|double,"tinned, powdered or fresh milk was sweetened",NA,NA
+v411a,haven_labelled|vctrs_vctr|double,gave child baby formula,NA,NA
+v412,haven_labelled|vctrs_vctr|double,na - gave child fresh milk,NA,NA
+v412a,haven_labelled|vctrs_vctr|double,"na - gave child fortified baby food (cerelac, etc)",NA,NA
+v412b,haven_labelled|vctrs_vctr|double,na - gave child other porridge/gruel,NA,NA
+v412c,haven_labelled|vctrs_vctr|double,gave child soup/clear broth,NA,NA
+v413,haven_labelled|vctrs_vctr|double,gave child other liquid,NA,NA
+v413s,haven_labelled|vctrs_vctr|double,other liquid was sweetened,NA,NA
+v413a,haven_labelled|vctrs_vctr|double,gave child yogurt as a drink,NA,NA
+v413as,haven_labelled|vctrs_vctr|double,yogurt as a drink was sweetened,NA,NA
+v413b,haven_labelled|vctrs_vctr|double,gave child soy milk,NA,NA
+v413bs,haven_labelled|vctrs_vctr|double,soy milk was sweetened,NA,NA
+v413c,haven_labelled|vctrs_vctr|double,gave child chocolate flavored drinks,NA,NA
+v413d,haven_labelled|vctrs_vctr|double,gave child sodas/malt/sports/energy drinks,NA,NA
+v413e,haven_labelled|vctrs_vctr|double,na - gave child cs liquid,NA,NA
+v413f,haven_labelled|vctrs_vctr|double,na - gave child cs liquid,NA,NA
+v413g,haven_labelled|vctrs_vctr|double,na - gave child cs liquid,NA,NA
+v413h,haven_labelled|vctrs_vctr|double,na - gave child cs liquid,NA,NA
+v413i,haven_labelled|vctrs_vctr|double,na - gave child cs liquid,NA,NA
+v414a,haven_labelled|vctrs_vctr|double,gave child any other vegetables,NA,NA
+v414b,haven_labelled|vctrs_vctr|double,"gave child sausages, hot dogs, frankfurters, ham, bacon, salami, canned food",NA,NA
+v414c,haven_labelled|vctrs_vctr|double,"gave child nuts, seeds",NA,NA
+v414d,haven_labelled|vctrs_vctr|double,gave child any insects,NA,NA
+v414e,haven_labelled|vctrs_vctr|double,"gave child bread, noodles, other made from grains",NA,NA
+v414f,haven_labelled|vctrs_vctr|double,"gave child plantains, potatoes, cassava, or other tubers",NA,NA
+v414g,haven_labelled|vctrs_vctr|double,gave child eggs,NA,NA
+v414h,haven_labelled|vctrs_vctr|double,"gave child any other meat (beef, pork, lamb, chicken, etc)",NA,NA
+v414i,haven_labelled|vctrs_vctr|double,"gave child pumpkin, carrots, squash (yellow or orange inside)",NA,NA
+v414j,haven_labelled|vctrs_vctr|double,gave child any dark green leafy vegetables,NA,NA
+v414k,haven_labelled|vctrs_vctr|double,"gave child mangoes, papayas, other vitamin a fruits",NA,NA
+v414l,haven_labelled|vctrs_vctr|double,gave child any other fruits,NA,NA
+v414m,haven_labelled|vctrs_vctr|double,"gave child liver, heart, other organs",NA,NA
+v414n,haven_labelled|vctrs_vctr|double,gave child fish or shellfish,NA,NA
+v414o,haven_labelled|vctrs_vctr|double,"gave child food made from beans, peas, lentils",NA,NA
+v414p,haven_labelled|vctrs_vctr|double,gave child hard/soft cheese,NA,NA
+v414q,haven_labelled|vctrs_vctr|double,"na - gave child oil, fats, butter, products made of them",NA,NA
+v414r,haven_labelled|vctrs_vctr|double,"gave child cakes, candies, pastries, sweet biscuits, chin chin, puff, etc",NA,NA
+v414s,haven_labelled|vctrs_vctr|double,gave child other solid-semisolid food,NA,NA
+v414t,haven_labelled|vctrs_vctr|double,"gave child chips, crisps, french fries, fried dough, instant noodles",NA,NA
+v414u,haven_labelled|vctrs_vctr|double,gave child red palm oil or red palm fruit,NA,NA
+v414v,haven_labelled|vctrs_vctr|double,gave child yogurt,NA,NA
+v414w,haven_labelled|vctrs_vctr|double,"gave child sweets, chocolates, ice cream, or sesame brittle",NA,NA
+v414wa,haven_labelled|vctrs_vctr|double,na - gave child cs foods,NA,NA
+v414wb,haven_labelled|vctrs_vctr|double,na - gave child cs foods,NA,NA
+v414wc,haven_labelled|vctrs_vctr|double,na - gave child cs foods,NA,NA
+v414wd,haven_labelled|vctrs_vctr|double,na - gave child cs foods,NA,NA
+v414we,haven_labelled|vctrs_vctr|double,na - gave child cs foods,NA,NA
+v465,haven_labelled|vctrs_vctr|double,disposal of youngest child's stools when not using toilet,NA,NA
+v469e,haven_labelled|vctrs_vctr|double,times gave child powdered/tinned/fresh milk,NA,NA
+v469f,haven_labelled|vctrs_vctr|double,times gave child infant formula,NA,NA
+v469x,haven_labelled|vctrs_vctr|double,times gave child yogurt,NA,NA
+v486,haven_labelled|vctrs_vctr|double,"last 6 months, health care provider advised what to feed to child",NA,NA
+hidx,numeric,index to birth history,NA,NA
+h1,haven_labelled|vctrs_vctr|double,has health card,NA,NA
+h1a,haven_labelled|vctrs_vctr|double,has health card and or other vaccination document,NA,NA
+h2,haven_labelled|vctrs_vctr|double,received bcg,NA,NA
+h2d,haven_labelled|vctrs_vctr|double,bcg day,NA,NA
+h2m,haven_labelled|vctrs_vctr|double,bcg month,NA,NA
+h2y,haven_labelled|vctrs_vctr|double,bcg year,NA,NA
+h3,haven_labelled|vctrs_vctr|double,received dpt 1,NA,NA
+h3d,haven_labelled|vctrs_vctr|double,dpt 1 day,NA,NA
+h3m,haven_labelled|vctrs_vctr|double,dpt 1 month,NA,NA
+h3y,haven_labelled|vctrs_vctr|double,dpt 1 year,NA,NA
+h4,haven_labelled|vctrs_vctr|double,received polio 1,NA,NA
+h4d,haven_labelled|vctrs_vctr|double,polio 1 day,NA,NA
+h4m,haven_labelled|vctrs_vctr|double,polio 1 month,NA,NA
+h4y,haven_labelled|vctrs_vctr|double,polio 1 year,NA,NA
+h5,haven_labelled|vctrs_vctr|double,received dpt 2,NA,NA
+h5d,haven_labelled|vctrs_vctr|double,dpt 2 day,NA,NA
+h5m,haven_labelled|vctrs_vctr|double,dpt 2 month,NA,NA
+h5y,haven_labelled|vctrs_vctr|double,dpt 2 year,NA,NA
+h6,haven_labelled|vctrs_vctr|double,received polio 2,NA,NA
+h6d,haven_labelled|vctrs_vctr|double,polio 2 day,NA,NA
+h6m,haven_labelled|vctrs_vctr|double,polio 2 month,NA,NA
+h6y,haven_labelled|vctrs_vctr|double,polio 2 year,NA,NA
+h7,haven_labelled|vctrs_vctr|double,received dpt 3,NA,NA
+h7d,haven_labelled|vctrs_vctr|double,dpt 3 day,NA,NA
+h7m,haven_labelled|vctrs_vctr|double,dpt 3 month,NA,NA
+h7y,haven_labelled|vctrs_vctr|double,dpt 3 year,NA,NA
+h8,haven_labelled|vctrs_vctr|double,received polio 3,NA,NA
+h8d,haven_labelled|vctrs_vctr|double,polio 3 day,NA,NA
+h8m,haven_labelled|vctrs_vctr|double,polio 3 month,NA,NA
+h8y,haven_labelled|vctrs_vctr|double,polio 3 year,NA,NA
+h9,haven_labelled|vctrs_vctr|double,received measles 1,NA,NA
+h9d,haven_labelled|vctrs_vctr|double,measles 1 day,NA,NA
+h9m,haven_labelled|vctrs_vctr|double,measles 1 month,NA,NA
+h9y,haven_labelled|vctrs_vctr|double,measles 1 year,NA,NA
+h9a,haven_labelled|vctrs_vctr|double,received measles 2,NA,NA
+h9ad,haven_labelled|vctrs_vctr|double,measles 2 day,NA,NA
+h9am,haven_labelled|vctrs_vctr|double,measles 2 month,NA,NA
+h9ay,haven_labelled|vctrs_vctr|double,measles 2 year,NA,NA
+h0,haven_labelled|vctrs_vctr|double,received polio 0,NA,NA
+h0d,haven_labelled|vctrs_vctr|double,polio 0 day,NA,NA
+h0m,haven_labelled|vctrs_vctr|double,polio 0 month,NA,NA
+h0y,haven_labelled|vctrs_vctr|double,polio 0 year,NA,NA
+h10,haven_labelled|vctrs_vctr|double,ever had vaccination,NA,NA
+h25d,haven_labelled|vctrs_vctr|double,day of birth from vaccination card,NA,NA
+h25m,haven_labelled|vctrs_vctr|double,month of birth from vaccination card,NA,NA
+h25y,haven_labelled|vctrs_vctr|double,year of birth from vaccination card,NA,NA
+h26,haven_labelled|vctrs_vctr|double,photograph of vaccination card available,NA,NA
+h33,haven_labelled|vctrs_vctr|double,received vitamin a1 (most recent),NA,NA
+h33d,haven_labelled|vctrs_vctr|double,vitamin a1 day,NA,NA
+h33m,haven_labelled|vctrs_vctr|double,vitamin a1 month,NA,NA
+h33y,haven_labelled|vctrs_vctr|double,vitamin a1 year,NA,NA
+h40,haven_labelled|vctrs_vctr|double,na - received vitamin a2 (2nd most recent),NA,NA
+h40d,haven_labelled|vctrs_vctr|double,na - vitamin a2 day,NA,NA
+h40m,haven_labelled|vctrs_vctr|double,na - vitamin a2 month,NA,NA
+h40y,haven_labelled|vctrs_vctr|double,na - vitamin a2 year,NA,NA
+h50,haven_labelled|vctrs_vctr|double,received hepatitis b at birth,NA,NA
+h50d,haven_labelled|vctrs_vctr|double,hepatitis b at birth day,NA,NA
+h50m,haven_labelled|vctrs_vctr|double,hepatitis b at birth month,NA,NA
+h50y,haven_labelled|vctrs_vctr|double,hepatitis b at birth year,NA,NA
+h51,haven_labelled|vctrs_vctr|double,received pentavalent 1,NA,NA
+h51d,haven_labelled|vctrs_vctr|double,pentavalent 1 day,NA,NA
+h51m,haven_labelled|vctrs_vctr|double,pentavalent 1 month,NA,NA
+h51y,haven_labelled|vctrs_vctr|double,pentavalent 1 year,NA,NA
+h52,haven_labelled|vctrs_vctr|double,received pentavalent 2,NA,NA
+h52d,haven_labelled|vctrs_vctr|double,pentavalent 2 day,NA,NA
+h52m,haven_labelled|vctrs_vctr|double,pentavalent 2 month,NA,NA
+h52y,haven_labelled|vctrs_vctr|double,pentavalent 2 year,NA,NA
+h53,haven_labelled|vctrs_vctr|double,received pentavalent 3,NA,NA
+h53d,haven_labelled|vctrs_vctr|double,pentavalent 3 day,NA,NA
+h53m,haven_labelled|vctrs_vctr|double,pentavalent 3 month,NA,NA
+h53y,haven_labelled|vctrs_vctr|double,pentavalent 3 year,NA,NA
+h54,haven_labelled|vctrs_vctr|double,received pneumococcal 1,NA,NA
+h54d,haven_labelled|vctrs_vctr|double,pneumococcal 1 day,NA,NA
+h54m,haven_labelled|vctrs_vctr|double,pneumococcal 1 month,NA,NA
+h54y,haven_labelled|vctrs_vctr|double,pneumococcal 1 year,NA,NA
+h55,haven_labelled|vctrs_vctr|double,received pneumococcal 2,NA,NA
+h55d,haven_labelled|vctrs_vctr|double,pneumococcal 2 day,NA,NA
+h55m,haven_labelled|vctrs_vctr|double,pneumococcal 2 month,NA,NA
+h55y,haven_labelled|vctrs_vctr|double,pneumococcal 2 year,NA,NA
+h56,haven_labelled|vctrs_vctr|double,received pneumococcal 3,NA,NA
+h56d,haven_labelled|vctrs_vctr|double,pneumococcal 3 day,NA,NA
+h56m,haven_labelled|vctrs_vctr|double,pneumococcal 3 month,NA,NA
+h56y,haven_labelled|vctrs_vctr|double,pneumococcal 3 year,NA,NA
+h57,haven_labelled|vctrs_vctr|double,received rotavirus 1,NA,NA
+h57d,haven_labelled|vctrs_vctr|double,rotavirus 1 day,NA,NA
+h57m,haven_labelled|vctrs_vctr|double,rotavirus 1 month,NA,NA
+h57y,haven_labelled|vctrs_vctr|double,rotavirus 1 year,NA,NA
+h58,haven_labelled|vctrs_vctr|double,received rotavirus 2,NA,NA
+h58d,haven_labelled|vctrs_vctr|double,rotavirus 2 day,NA,NA
+h58m,haven_labelled|vctrs_vctr|double,rotavirus 2 month,NA,NA
+h58y,haven_labelled|vctrs_vctr|double,rotavirus 2 year,NA,NA
+h59,haven_labelled|vctrs_vctr|double,received rotavirus 3,NA,NA
+h59d,haven_labelled|vctrs_vctr|double,rotavirus 3 day,NA,NA
+h59m,haven_labelled|vctrs_vctr|double,rotavirus 3 month,NA,NA
+h59y,haven_labelled|vctrs_vctr|double,rotavirus 3 year,NA,NA
+h60,haven_labelled|vctrs_vctr|double,received inactivated polio (ipv-1),NA,NA
+h60d,haven_labelled|vctrs_vctr|double,inactivated polio (ipv-1) day,NA,NA
+h60m,haven_labelled|vctrs_vctr|double,inactivated polio (ipv-1) month,NA,NA
+h60y,haven_labelled|vctrs_vctr|double,inactivated polio (ipv-1) year,NA,NA
+h61,haven_labelled|vctrs_vctr|double,received hepatitis b 1,NA,NA
+h61d,haven_labelled|vctrs_vctr|double,hepatitis b 1 day,NA,NA
+h61m,haven_labelled|vctrs_vctr|double,hepatitis b 1 month,NA,NA
+h61y,haven_labelled|vctrs_vctr|double,hepatitis b 1 year,NA,NA
+h62,haven_labelled|vctrs_vctr|double,received hepatitis b 2,NA,NA
+h62d,haven_labelled|vctrs_vctr|double,hepatitis b 2 day,NA,NA
+h62m,haven_labelled|vctrs_vctr|double,hepatitis b 2 month,NA,NA
+h62y,haven_labelled|vctrs_vctr|double,hepatitis b 2 year,NA,NA
+h63,haven_labelled|vctrs_vctr|double,received hepatitis b 3,NA,NA
+h63d,haven_labelled|vctrs_vctr|double,hepatitis b 3 day,NA,NA
+h63m,haven_labelled|vctrs_vctr|double,hepatitis b 3 month,NA,NA
+h63y,haven_labelled|vctrs_vctr|double,hepatitis b 3 year,NA,NA
+h64,haven_labelled|vctrs_vctr|double,na - received hib 1,NA,NA
+h64d,haven_labelled|vctrs_vctr|double,na - hib 1 day,NA,NA
+h64m,haven_labelled|vctrs_vctr|double,na - hib 1 month,NA,NA
+h64y,haven_labelled|vctrs_vctr|double,na - hib 1 year,NA,NA
+h65,haven_labelled|vctrs_vctr|double,na - received hib 2,NA,NA
+h65d,haven_labelled|vctrs_vctr|double,na - hib 2 day,NA,NA
+h65m,haven_labelled|vctrs_vctr|double,na - hib 2 month,NA,NA
+h65y,haven_labelled|vctrs_vctr|double,na - hib 2 year,NA,NA
+h66,haven_labelled|vctrs_vctr|double,na - received hib 3,NA,NA
+h66d,haven_labelled|vctrs_vctr|double,na - hib 3 day,NA,NA
+h66m,haven_labelled|vctrs_vctr|double,na - hib 3 month,NA,NA
+h66y,haven_labelled|vctrs_vctr|double,na - hib 3 year,NA,NA
+h67,haven_labelled|vctrs_vctr|double,na - received pentavalent 4,NA,NA
+h67d,haven_labelled|vctrs_vctr|double,na - pentavalent 4 day,NA,NA
+h67m,haven_labelled|vctrs_vctr|double,na - pentavalent 4 month,NA,NA
+h67y,haven_labelled|vctrs_vctr|double,na - pentavalent 4 year,NA,NA
+h68,haven_labelled|vctrs_vctr|double,hepatitis b at birth received within 24 of birth,NA,NA
+h69,haven_labelled|vctrs_vctr|double,place where most vaccinations were received,NA,NA
+hidxa,numeric,index to birth history,NA,NA
+h11,haven_labelled|vctrs_vctr|double,had diarrhea recently,NA,NA
+h11b,haven_labelled|vctrs_vctr|double,na - blood in the stools,NA,NA
+h12a,haven_labelled|vctrs_vctr|double,diarrhea: teaching hospital,NA,NA
+h12b,haven_labelled|vctrs_vctr|double,diarrhea: federal medical center,NA,NA
+h12c,haven_labelled|vctrs_vctr|double,diarrhea: general hospital,NA,NA
+h12d,haven_labelled|vctrs_vctr|double,diarrhea: primary health care center,NA,NA
+h12e,haven_labelled|vctrs_vctr|double,diarrhea: primary health clinic,NA,NA
+h12f,haven_labelled|vctrs_vctr|double,diarrhea: health post,NA,NA
+h12g,haven_labelled|vctrs_vctr|double,diarrhea: other public sector,NA,NA
+h12h,haven_labelled|vctrs_vctr|double,na - diarrhea: cs public sector,NA,NA
+h12i,haven_labelled|vctrs_vctr|double,na - diarrhea: cs public sector,NA,NA
+h12j,haven_labelled|vctrs_vctr|double,diarrhea: private hospital,NA,NA
+h12k,haven_labelled|vctrs_vctr|double,diarrhea: pharmacy,NA,NA
+h12l,haven_labelled|vctrs_vctr|double,diarrhea: private doctor,NA,NA
+h12m,haven_labelled|vctrs_vctr|double,diarrhea: private clinic,NA,NA
+h12n,haven_labelled|vctrs_vctr|double,diarrhea: patent & proprietary medicine vendors (ppmv),NA,NA
+h12o,haven_labelled|vctrs_vctr|double,diarrhea: mobile clinic,NA,NA
+h12p,haven_labelled|vctrs_vctr|double,diarrhea: maternity center,NA,NA
+h12q,haven_labelled|vctrs_vctr|double,diarrhea: other private medical sector,NA,NA
+h12r,haven_labelled|vctrs_vctr|double,na - diarrhea: cs private medical,NA,NA
+h12na,haven_labelled|vctrs_vctr|double,diarrhea: faith-based hospital,NA,NA
+h12nb,haven_labelled|vctrs_vctr|double,diarrhea: faith-based clinic,NA,NA
+h12nc,haven_labelled|vctrs_vctr|double,diarrhea: other ngo sector,NA,NA
+h12nd,haven_labelled|vctrs_vctr|double,na - diarrhea: cs ngo,NA,NA
+h12ne,haven_labelled|vctrs_vctr|double,na - diarrhea: cs ngo,NA,NA
+h12s,haven_labelled|vctrs_vctr|double,diarrhea: shop,NA,NA
+h12t,haven_labelled|vctrs_vctr|double,diarrhea: traditional practitioner,NA,NA
+h12u,haven_labelled|vctrs_vctr|double,diarrhea: market,NA,NA
+h12v,haven_labelled|vctrs_vctr|double,diarrhea: itinerant drug seller,NA,NA
+h12w,haven_labelled|vctrs_vctr|double,na - diarrhea: cs other sector,NA,NA
+h12x,haven_labelled|vctrs_vctr|double,diarrhea: other,NA,NA
+h12y,haven_labelled|vctrs_vctr|double,diarrhea: no treatment,NA,NA
+h12z,haven_labelled|vctrs_vctr|double,diarrhea: medical treatment,NA,NA
+h13,haven_labelled|vctrs_vctr|double,given oral rehydration,NA,NA
+h13b,haven_labelled|vctrs_vctr|double,given pre-packaged ors liquid,NA,NA
+h14,haven_labelled|vctrs_vctr|double,given recommended home solution,NA,NA
+h15,haven_labelled|vctrs_vctr|double,given antibiotic pills or syrups,NA,NA
+h15a,haven_labelled|vctrs_vctr|double,given antimotility,NA,NA
+h15b,haven_labelled|vctrs_vctr|double,given antibiotic injection,NA,NA
+h15c,haven_labelled|vctrs_vctr|double,given intravenous (iv),NA,NA
+h15d,haven_labelled|vctrs_vctr|double,"given home remedy, herbal medicine",NA,NA
+h15e,haven_labelled|vctrs_vctr|double,given zinc,NA,NA
+h15f,haven_labelled|vctrs_vctr|double,"given other (not antibiotic, antimotility, zinc)",NA,NA
+h15g,haven_labelled|vctrs_vctr|double,given unknown pill or syrup,NA,NA
+h15h,haven_labelled|vctrs_vctr|double,given non-antibiotic injection,NA,NA
+h15i,haven_labelled|vctrs_vctr|double,given unknown injection,NA,NA
+h15j,haven_labelled|vctrs_vctr|double,na - given cs,NA,NA
+h15k,haven_labelled|vctrs_vctr|double,na - given cs,NA,NA
+h15l,haven_labelled|vctrs_vctr|double,na - given cs,NA,NA
+h15m,haven_labelled|vctrs_vctr|double,na - given cs,NA,NA
+h20,haven_labelled|vctrs_vctr|double,given other treatment,NA,NA
+h21a,haven_labelled|vctrs_vctr|double,given no treatment,NA,NA
+h21,haven_labelled|vctrs_vctr|double,received any treatment,NA,NA
+h22,haven_labelled|vctrs_vctr|double,had fever in last two weeks,NA,NA
+h31,haven_labelled|vctrs_vctr|double,had cough in last two weeks,NA,NA
+h31b,haven_labelled|vctrs_vctr|double,"short, rapid breaths",NA,NA
+h31c,haven_labelled|vctrs_vctr|double,problem in the chest or blocked or running nose,NA,NA
+h31d,haven_labelled|vctrs_vctr|double,na - had fever/cough in last 2 weeks: amount offered to drink,NA,NA
+h31e,haven_labelled|vctrs_vctr|double,na - had fever/cough in last 2 weeks: amount offered to eat,NA,NA
+h32a,haven_labelled|vctrs_vctr|double,fever/cough: teaching hospital,NA,NA
+h32b,haven_labelled|vctrs_vctr|double,fever/cough: federal mdical center,NA,NA
+h32c,haven_labelled|vctrs_vctr|double,fever/cough: general hispital,NA,NA
+h32d,haven_labelled|vctrs_vctr|double,fever/cough: primary health care center,NA,NA
+h32e,haven_labelled|vctrs_vctr|double,fever/cough: primary health clinic,NA,NA
+h32f,haven_labelled|vctrs_vctr|double,fever/cough: health post,NA,NA
+h32g,haven_labelled|vctrs_vctr|double,fever/cough: other public sector,NA,NA
+h32h,haven_labelled|vctrs_vctr|double,na - fever/cough: cs public sector,NA,NA
+h32i,haven_labelled|vctrs_vctr|double,na - fever/cough: cs public sector,NA,NA
+h32j,haven_labelled|vctrs_vctr|double,fever/cough: private hospital,NA,NA
+h32k,haven_labelled|vctrs_vctr|double,fever/cough: pharmacy,NA,NA
+h32l,haven_labelled|vctrs_vctr|double,fever/cough: private doctor,NA,NA
+h32m,haven_labelled|vctrs_vctr|double,fever/cough: private clinic,NA,NA
+h32n,haven_labelled|vctrs_vctr|double,fever/cough: patent proprietary medicine vendors (ppmv),NA,NA
+h32o,haven_labelled|vctrs_vctr|double,fever/cough: mobile clinic,NA,NA
+h32p,haven_labelled|vctrs_vctr|double,fever/cough: maternity center,NA,NA
+h32q,haven_labelled|vctrs_vctr|double,fever/cough: other private,NA,NA
+h32r,haven_labelled|vctrs_vctr|double,na - fever/cough: cs private medical,NA,NA
+h32na,haven_labelled|vctrs_vctr|double,fever/cough: faith-based hospital,NA,NA
+h32nb,haven_labelled|vctrs_vctr|double,fever/cough: faith-based clinic,NA,NA
+h32nc,haven_labelled|vctrs_vctr|double,fever/cough: other ngo sector,NA,NA
+h32nd,haven_labelled|vctrs_vctr|double,na - fever/cough: cs ngo,NA,NA
+h32ne,haven_labelled|vctrs_vctr|double,na - fever/cough: cs ngo,NA,NA
+h32s,haven_labelled|vctrs_vctr|double,fever/cough: shop,NA,NA
+h32t,haven_labelled|vctrs_vctr|double,fever/cough: traditional practitioner,NA,NA
+h32u,haven_labelled|vctrs_vctr|double,fever/cough: market,NA,NA
+h32v,haven_labelled|vctrs_vctr|double,fever/cough: interant drug seller,NA,NA
+h32w,haven_labelled|vctrs_vctr|double,na - fever/cough: cs other sector,NA,NA
+h32x,haven_labelled|vctrs_vctr|double,fever/cough: other,NA,NA
+h32y,haven_labelled|vctrs_vctr|double,fever/cough: no treatment,NA,NA
+h32z,haven_labelled|vctrs_vctr|double,fever/cough: medical treatment,NA,NA
+h34,haven_labelled|vctrs_vctr|double,vitamin a in last 6 months,NA,NA
+h37a,haven_labelled|vctrs_vctr|double,sp/fansidar taken for fever,NA,NA
+h37b,haven_labelled|vctrs_vctr|double,chloroquine taken for fever,NA,NA
+h37c,haven_labelled|vctrs_vctr|double,amodiaquine taken for fever,NA,NA
+h37d,haven_labelled|vctrs_vctr|double,quinine taken for fever,NA,NA
+h37da,haven_labelled|vctrs_vctr|double,quinine injection/iv taken for fever,NA,NA
+h37e,haven_labelled|vctrs_vctr|double,combination with artemisinin taken for fever,NA,NA
+h37aa,haven_labelled|vctrs_vctr|double,artesunate rectal taken for fever,NA,NA
+h37ab,haven_labelled|vctrs_vctr|double,artesunate injection/iv taken for fever,NA,NA
+h37f,haven_labelled|vctrs_vctr|double,na - cs antimalarial taken for fever,NA,NA
+h37g,haven_labelled|vctrs_vctr|double,na - cs antimalarial taken for fever,NA,NA
+h37h,haven_labelled|vctrs_vctr|double,other antimalarial taken for fever,NA,NA
+h37i,haven_labelled|vctrs_vctr|double,antibiotic pill/syrup taken for fever,NA,NA
+h37j,haven_labelled|vctrs_vctr|double,antibiotic injection taken for fever,NA,NA
+h37k,haven_labelled|vctrs_vctr|double,aspirin taken for fever,NA,NA
+h37l,haven_labelled|vctrs_vctr|double,acetaminophen/paracetamol/panadol taken for fever,NA,NA
+h37m,haven_labelled|vctrs_vctr|double,ibuprofen taken for fever,NA,NA
+h37n,haven_labelled|vctrs_vctr|double,amoxicillin taken for fever,NA,NA
+h37o,haven_labelled|vctrs_vctr|double,cotrimoxazole taken for fever/cough,NA,NA
+h37p,haven_labelled|vctrs_vctr|double,na - cs other for fever/cough,NA,NA
+h37q,haven_labelled|vctrs_vctr|double,na - cs other for fever/cough,NA,NA
+h37r,haven_labelled|vctrs_vctr|double,na - cs other for fever/cough,NA,NA
+h37x,haven_labelled|vctrs_vctr|double,other taken for fever,NA,NA
+h37y,haven_labelled|vctrs_vctr|double,nothing taken and didn't seek treatment for fever/cough,NA,NA
+h37z,haven_labelled|vctrs_vctr|double,don't know if or what was taken for fever,NA,NA
+h38,haven_labelled|vctrs_vctr|double,diarrhea in last 2 weeks: amount offered to drink,NA,NA
+h39,haven_labelled|vctrs_vctr|double,diarrhea in last 2 weeks: amount offered to eat,NA,NA
+h42,haven_labelled|vctrs_vctr|double,"last 12 months given iron pills, sprinkles or syrup",NA,NA
+h43,haven_labelled|vctrs_vctr|double,drugs for intestinal parasites in last 6 months,NA,NA
+h44a,haven_labelled|vctrs_vctr|double,place first sought treatment for diarrhea,NA,NA
+h46a,haven_labelled|vctrs_vctr|double,place first sought treatment for fever,NA,NA
+h46b,haven_labelled|vctrs_vctr|double,number of days after fever began sought advice or treatment,NA,NA
+h47,haven_labelled|vctrs_vctr|double,blood taken from child's finger/heel for testing,NA,NA
+h70a,haven_labelled|vctrs_vctr|double,past 3 months health care provider measured child's weight,NA,NA
+h70b,haven_labelled|vctrs_vctr|double,past 3 months health care provider measured child's length/height,NA,NA
+h70c,haven_labelled|vctrs_vctr|double,past 3 months health care provider measured child's upper arm,NA,NA
+h71,haven_labelled|vctrs_vctr|double,was respondent told that child had malaria,NA,NA
+h80a,haven_labelled|vctrs_vctr|double,last 12 months given: multiple micronutrient powder,NA,NA
+h80b,haven_labelled|vctrs_vctr|double,na - last 12 months given: local name ready to use therapeutic food,NA,NA
+h80c,haven_labelled|vctrs_vctr|double,na - last 12 months given: local name for ready to use supplemental food,NA,NA
+h80d,haven_labelled|vctrs_vctr|double,na - last 12 months given: cs,NA,NA
+h80e,haven_labelled|vctrs_vctr|double,na - last 12 months given: cs,NA,NA
+h80f,haven_labelled|vctrs_vctr|double,na - last 12 months given: cs,NA,NA
+h80g,haven_labelled|vctrs_vctr|double,na - last 12 months given: cs,NA,NA
+ml20a,haven_labelled|vctrs_vctr|double,timing of start of combination with artemisinin,NA,NA
+hwidx,numeric,index to birth history,NA,NA
+hw1,numeric,child's age in months,NA,NA
+hw2,haven_labelled|vctrs_vctr|double,child's weight in kilograms (1 decimal),NA,NA
+hw3,haven_labelled|vctrs_vctr|double,child's height in centimeters (1 decimal),NA,NA
+hw13,haven_labelled|vctrs_vctr|double,result of measurement - height/weight,NA,NA
+hw15,haven_labelled|vctrs_vctr|double,height: lying or standing,NA,NA
+hw16,haven_labelled|vctrs_vctr|double,day of birth of child,NA,NA
+hw17,numeric,date measured (day),NA,NA
+hw18,numeric,date measured (month),NA,NA
+hw19,numeric,date measured (year),NA,NA
+hw51,haven_labelled|vctrs_vctr|double,line number of parent/caretaker,NA,NA
+hw52,haven_labelled|vctrs_vctr|double,read consent statement - hemoglobin,NA,NA
+hw53,haven_labelled|vctrs_vctr|double,hemoglobin level (g/dl - 1 decimal),NA,NA
+hw55,haven_labelled|vctrs_vctr|double,result of measurement - hemoglobin,NA,NA
+hw56,haven_labelled|vctrs_vctr|double,hemoglobin level adjusted for altitude (g/dl - 1 decimal),NA,NA
+hw56a,haven_labelled|vctrs_vctr|double,hemoglobin level adjusted for altitude (g/dl - 1 decimal) (new who),NA,NA
+hw57,haven_labelled|vctrs_vctr|double,anemia level,NA,NA
+hw57a,haven_labelled|vctrs_vctr|double,anemia level (new who),NA,NA
+hw58,haven_labelled|vctrs_vctr|double,na - agrees to referral - anemia,NA,NA
+hw70,haven_labelled|vctrs_vctr|double,height/age standard deviation (new who),NA,NA
+hw71,haven_labelled|vctrs_vctr|double,weight/age standard deviation (new who),NA,NA
+hw72,haven_labelled|vctrs_vctr|double,weight/height standard deviation (new who),NA,NA
+hw73,haven_labelled|vctrs_vctr|double,bmi standard deviation (new who),NA,NA
+gidx,numeric,daughter's index to birth history,NA,NA
+g121,haven_labelled|vctrs_vctr|double,is daughter circumcised,NA,NA
+g122,haven_labelled|vctrs_vctr|double,daughter's age at circumcision,NA,NA
+g123,haven_labelled|vctrs_vctr|double,was daughter genital area sewn closed,NA,NA
+g124,haven_labelled|vctrs_vctr|double,who performed daughter's circumcision,NA,NA
+s107,haven_labelled|vctrs_vctr|double,province/state lived before moved to place of interview,NA,NA
+s114,haven_labelled|vctrs_vctr|double,highest educational level,NA,NA
+s115,haven_labelled|vctrs_vctr|double,highest class at that level,NA,NA
+sstate,haven_labelled|vctrs_vctr|double,state (codes are as per sample frame),NA,NA
+szone,haven_labelled|vctrs_vctr|double,zone (for final report),NA,NA
+sstate1,haven_labelled|vctrs_vctr|double,state (for final report),NA,NA
+s816a,haven_labelled|vctrs_vctr|double,heard/seen family planning message: as for me and my partner,NA,NA
+s816b,haven_labelled|vctrs_vctr|double,heard/seen family planning message: unspaced children,NA,NA
+s816c,haven_labelled|vctrs_vctr|double,heard/seen family planning message: well-spaced children,NA,NA
+s816d,haven_labelled|vctrs_vctr|double,heard/seen family planning message: it's not too late,NA,NA
+s816e,haven_labelled|vctrs_vctr|double,heard/seen family planning message: why is your wife,NA,NA
+s816x,haven_labelled|vctrs_vctr|double,heard/seen family planning message: other,NA,NA
+s916a,haven_labelled|vctrs_vctr|double,number of accumulated hours per day spent on unpaid domestic work,NA,NA
+s916b,haven_labelled|vctrs_vctr|double,domestic work is the role of women,NA,NA
+s1035b,haven_labelled|vctrs_vctr|double,knows husband/partner's hiv status,NA,NA
+s1045e,haven_labelled|vctrs_vctr|double,offered hiv test,NA,NA
+s1047a,haven_labelled|vctrs_vctr|double,stis prevent women from getting pregnant in future,NA,NA
+s1047b,haven_labelled|vctrs_vctr|double,stis prevent men from fathering children in future,NA,NA
+s1109a,haven_labelled|vctrs_vctr|double,heard of tb,NA,NA
+s1109ba,haven_labelled|vctrs_vctr|double,way of tb spread: through coughing and sneezing,NA,NA
+s1109bb,haven_labelled|vctrs_vctr|double,way of tb spread: through sharing utensil,NA,NA
+s1109bc,haven_labelled|vctrs_vctr|double,way of tb spread: through touching a person with tb,NA,NA
+s1109bd,haven_labelled|vctrs_vctr|double,way of tb spread: through food,NA,NA
+s1109be,haven_labelled|vctrs_vctr|double,way of tb spread: through sexual contact,NA,NA
+s1109bf,haven_labelled|vctrs_vctr|double,way of tb spread: through mosquito bites,NA,NA
+s1109bx,haven_labelled|vctrs_vctr|double,way of tb spread: through other,NA,NA
+s1109bz,haven_labelled|vctrs_vctr|double,way of tb spread: don't know,NA,NA
+s1109ca,haven_labelled|vctrs_vctr|double,sign and symtoms of tb: persistent cough (2 weeks or more),NA,NA
+s1109cb,haven_labelled|vctrs_vctr|double,sign and symtoms of tb: coughing with sputum,NA,NA
+s1109cc,haven_labelled|vctrs_vctr|double,sign and symtoms of tb: weight loss,NA,NA
+s1109cd,haven_labelled|vctrs_vctr|double,sign and symtoms of tb: coughing blood,NA,NA
+s1109ce,haven_labelled|vctrs_vctr|double,sign and symtoms of tb: fever,NA,NA
+s1109cf,haven_labelled|vctrs_vctr|double,sign and symtoms of tb: night sweats,NA,NA
+s1109cg,haven_labelled|vctrs_vctr|double,sign and symtoms of tb: shortness of breath,NA,NA
+s1109ch,haven_labelled|vctrs_vctr|double,sign and symtoms of tb: loss of appetite,NA,NA
+s1109ci,haven_labelled|vctrs_vctr|double,sign and symtoms of tb: chest pain,NA,NA
+s1109cj,haven_labelled|vctrs_vctr|double,sign and symtoms of tb: fatigue/tiredness,NA,NA
+s1109cx,haven_labelled|vctrs_vctr|double,sign and symtoms of tb: other,NA,NA
+s1109cz,haven_labelled|vctrs_vctr|double,sign and symtoms of tb: don't know,NA,NA
+s1109d,haven_labelled|vctrs_vctr|double,tb can be cured,NA,NA
+s1109e,haven_labelled|vctrs_vctr|double,would keep it secret if family go tb,NA,NA
+s1109fa,haven_labelled|vctrs_vctr|double,belief about tb: individual with tb should be admitted until disease is over,NA,NA
+s1109fb,haven_labelled|vctrs_vctr|double,belief about tb: individuals with tb should be supported to take drugs,NA,NA
+s1109fc,haven_labelled|vctrs_vctr|double,belief about tb: will not marry from family with tb,NA,NA
+s1109fd,haven_labelled|vctrs_vctr|double,belief about tb: will not use same toilet as someone with tb,NA,NA
+s1109fe,haven_labelled|vctrs_vctr|double,belief about tb: people with tb brought it on themselves,NA,NA
+s1109ff,haven_labelled|vctrs_vctr|double,belief about tb: having tb is a punishment from god,NA,NA
+s1112a,haven_labelled|vctrs_vctr|double,heard of viral hepatitis b,NA,NA
+s1112b,haven_labelled|vctrs_vctr|double,tested for viral hepatitis b,NA,NA
+s1112c,haven_labelled|vctrs_vctr|double,result of test,NA,NA
+s1112d,haven_labelled|vctrs_vctr|double,treated for viral hepatitis b in last year,NA,NA
+s1112e,haven_labelled|vctrs_vctr|double,vaccinated for hep b,NA,NA
+s1112ea,haven_labelled|vctrs_vctr|double,heard of hep c,NA,NA
+s1112eb,haven_labelled|vctrs_vctr|double,tested for hep c in last 12 months,NA,NA
+s1112ec,haven_labelled|vctrs_vctr|double,result of test,NA,NA
+s1112ed,haven_labelled|vctrs_vctr|double,treated for hep c in last 12 months,NA,NA
+s1112ga,haven_labelled|vctrs_vctr|double,tested during antenatal care: hep b,NA,NA
+s1112gb,haven_labelled|vctrs_vctr|double,tested during antenatal care: hep c,NA,NA
+s1112ha,haven_labelled|vctrs_vctr|double,result of test: hep b,NA,NA
+s1112hb,haven_labelled|vctrs_vctr|double,result of test: hep c,NA,NA
+s1112j,haven_labelled|vctrs_vctr|double,child vaccinated or treated for hep b,NA,NA
+s1112k,haven_labelled|vctrs_vctr|double,heard of covid-19,NA,NA
+s1112la,haven_labelled|vctrs_vctr|double,source of information: community health workers,NA,NA
+s1112lb,haven_labelled|vctrs_vctr|double,source of information: other frontline workers from i/ngo,NA,NA
+s1112lc,haven_labelled|vctrs_vctr|double,source of information: radio program,NA,NA
+s1112ld,haven_labelled|vctrs_vctr|double,source of information: sms/text messaging,NA,NA
+s1112le,haven_labelled|vctrs_vctr|double,source of information: health facility,NA,NA
+s1112lf,haven_labelled|vctrs_vctr|double,source of information: photo counseling,NA,NA
+s1112lg,haven_labelled|vctrs_vctr|double,source of information: television,NA,NA
+s1112lh,haven_labelled|vctrs_vctr|double,source of information: mobile ring tone,NA,NA
+s1112li,haven_labelled|vctrs_vctr|double,source of information: afmily/relatives/friends/neighbors,NA,NA
+s1112lj,haven_labelled|vctrs_vctr|double,source of information: social media,NA,NA
+s1112lx,haven_labelled|vctrs_vctr|double,source of information: other,NA,NA
+s1112lz,haven_labelled|vctrs_vctr|double,source of information: don't know,NA,NA
+s1112ma,haven_labelled|vctrs_vctr|double,symptoms of covid-19: fever,NA,NA
+s1112mb,haven_labelled|vctrs_vctr|double,symptoms of covid-19: cough,NA,NA
+s1112mc,haven_labelled|vctrs_vctr|double,symptoms of covid-19: shortness of breath and breathing difficulties,NA,NA
+s1112md,haven_labelled|vctrs_vctr|double,symptoms of covid-19: muscle pain,NA,NA
+s1112me,haven_labelled|vctrs_vctr|double,symptoms of covid-19: headache,NA,NA
+s1112mf,haven_labelled|vctrs_vctr|double,symptoms of covid-19: loss of taste or smell,NA,NA
+s1112mg,haven_labelled|vctrs_vctr|double,symptoms of covid-19: diarrhea,NA,NA
+s1112mh,haven_labelled|vctrs_vctr|double,symptoms of covid-19: common cold and running nose,NA,NA
+s1112mx,haven_labelled|vctrs_vctr|double,symptoms of covid-19: other,NA,NA
+s1112mz,haven_labelled|vctrs_vctr|double,symptoms of covid-19: don't know,NA,NA
+s1112na,haven_labelled|vctrs_vctr|double,risks for spread: essential worker,NA,NA
+s1112nb,haven_labelled|vctrs_vctr|double,risks for spread: immunocompromised,NA,NA
+s1112nc,haven_labelled|vctrs_vctr|double,risks for spread: not wearing a mask,NA,NA
+s1112nd,haven_labelled|vctrs_vctr|double,risks for spread: poor room ventilation,NA,NA
+s1112ne,haven_labelled|vctrs_vctr|double,risks for spread: senior citizen,NA,NA
+s1112nf,haven_labelled|vctrs_vctr|double,risks for spread: not being vaccinated,NA,NA
+s1112ng,haven_labelled|vctrs_vctr|double,risks for spread: not maintaining social distance,NA,NA
+s1112nx,haven_labelled|vctrs_vctr|double,risks for spread: other,NA,NA
+s1112nz,haven_labelled|vctrs_vctr|double,risks for spread: don't know,NA,NA
+s1112oa,haven_labelled|vctrs_vctr|double,measures taken to reduce risk:  wearing as mask,NA,NA
+s1112ob,haven_labelled|vctrs_vctr|double,measures taken to reduce risk: washing hands properly,NA,NA
+s1112oc,haven_labelled|vctrs_vctr|double,measures taken to reduce risk: using sanitizer,NA,NA
+s1112od,haven_labelled|vctrs_vctr|double,measures taken to reduce risk: maintaining distance,NA,NA
+s1112oe,haven_labelled|vctrs_vctr|double,measures taken to reduce risk: avoid touching eyes/nose/mouth,NA,NA
+s1112of,haven_labelled|vctrs_vctr|double,measures taken to reduce risk: practice respiratory hygiene,NA,NA
+s1112og,haven_labelled|vctrs_vctr|double,measures taken to reduce risk: get vaccinated,NA,NA
+s1112oh,haven_labelled|vctrs_vctr|double,measures taken to reduce risk: focus on cleanliness,NA,NA
+s1112oi,haven_labelled|vctrs_vctr|double,measures taken to reduce risk: drink hot water (with or without herbs),NA,NA
+s1112ox,haven_labelled|vctrs_vctr|double,measures taken to reduce risk: other,NA,NA
+s1112oz,haven_labelled|vctrs_vctr|double,measures taken to reduce risk: did nothing,NA,NA
+s1112p,haven_labelled|vctrs_vctr|double,received covid-19 vaccination,NA,NA
+s1112q,haven_labelled|vctrs_vctr|double,type of covid-19 vaccination received,NA,NA
+s1112r,haven_labelled|vctrs_vctr|double,number of doses of covid-19 vaccination received,NA,NA
+s1112s,haven_labelled|vctrs_vctr|double,willing to be vaccinated against covid-19,NA,NA
+s1112t,haven_labelled|vctrs_vctr|double,bitten by snake,NA,NA
+s1112u,haven_labelled|vctrs_vctr|double,sought health care attention after bite,NA,NA
+s1112v,haven_labelled|vctrs_vctr|double,source of care sought after bite,NA,NA
+s1112w,haven_labelled|vctrs_vctr|double,given snake antivenom,NA,NA
+sgc6aa,haven_labelled|vctrs_vctr|double,type of procedure performed: removal of clitoris with partial or total excision,NA,NA
+sgc6ab,haven_labelled|vctrs_vctr|double,type of procedure performed: infibulation,NA,NA
+sgc6ac,haven_labelled|vctrs_vctr|double,type of procedure performed: scraping of tissue surrounding the vaginal orifice,NA,NA
+sgc6ad,haven_labelled|vctrs_vctr|double,type of procedure performed: cutting of the vagina,NA,NA
+sgc6b,haven_labelled|vctrs_vctr|double,ever used corrosive substance or herbs into vagina,NA,NA
+s311a,haven_labelled|vctrs_vctr|double,intends to use fp after end of pregnancy,NA,NA
+idx92,haven_labelled|vctrs_vctr|double,index to birth history,NA,NA
+idx92p,numeric,index to pregnancy history,NA,NA
+s228ad,haven_labelled|vctrs_vctr|double,day of death,NA,NA
+s228am,haven_labelled|vctrs_vctr|double,month of death,NA,NA
+s228ay,numeric,year of death,NA,NA
+idx94,haven_labelled|vctrs_vctr|double,index to birth history,NA,NA
+idx94p,numeric,index to pregnancy history,NA,NA
+s418aa,haven_labelled|vctrs_vctr|double,antenatal care fp counselling: all methods appropriate,NA,NA
+s418ab,haven_labelled|vctrs_vctr|double,antenatal care fp counselling: possible side effects,NA,NA
+s418ac,haven_labelled|vctrs_vctr|double,antenatal care fp counselling: lam,NA,NA
+s418ad,haven_labelled|vctrs_vctr|double,antenatal care fp counselling: transition from lam to other modern methods,NA,NA
+s418ae,haven_labelled|vctrs_vctr|double,antenatal care fp counselling: spacing pregnancies,NA,NA
+s418af,haven_labelled|vctrs_vctr|double,antenatal care fp counselling: fertility intentions,NA,NA
+s418ag,haven_labelled|vctrs_vctr|double,antenatal care fp counselling: return to facility,NA,NA
+s473aa,haven_labelled|vctrs_vctr|double,"during first two days, feeling nervous and anxious",NA,NA
+s473ab,haven_labelled|vctrs_vctr|double,"during first two days, feeling depressed or hopeless",NA,NA
+s473ac,haven_labelled|vctrs_vctr|double,"during first two days, losing interest or pleasure in doing anything",NA,NA
+s473ad,haven_labelled|vctrs_vctr|double,"during first two days, thinking of committing suicide",NA,NA
+s474aa,haven_labelled|vctrs_vctr|double,pnc fp counselling: all methods appropriate,NA,NA
+s474ab,haven_labelled|vctrs_vctr|double,pnc fp counselling: possible side effects,NA,NA
+s474ac,haven_labelled|vctrs_vctr|double,pnc fp counselling: lam,NA,NA
+s474ad,haven_labelled|vctrs_vctr|double,pnc fp counselling: transition from lam to other modern methods,NA,NA
+s474ae,haven_labelled|vctrs_vctr|double,pnc fp counselling: spacing pregnancies,NA,NA
+s474af,haven_labelled|vctrs_vctr|double,pnc fp counselling: fertility intentions,NA,NA
+s474ag,haven_labelled|vctrs_vctr|double,pnc fp counselling: return to facility,NA,NA
+idx95,numeric,index to birth history,NA,NA
+sipv2,haven_labelled|vctrs_vctr|double,received inactivated polio - 2 (ipv-2) - cs,NA,NA
+sipv2d,haven_labelled|vctrs_vctr|double,inactivated polio - 2 (ipv2) day - cs,NA,NA
+sipv2m,haven_labelled|vctrs_vctr|double,inactivated polio-2 (ipv2) month - cs,NA,NA
+sipv2y,haven_labelled|vctrs_vctr|double,inactivated polio-2 (ipv2) year - cs,NA,NA
+syf,haven_labelled|vctrs_vctr|double,received yellow fever vaccine - cs,NA,NA
+syfd,haven_labelled|vctrs_vctr|double,yellow fever vaccine day - cs,NA,NA
+syfm,haven_labelled|vctrs_vctr|double,yellow fever vaccine month - cs,NA,NA
+syfy,haven_labelled|vctrs_vctr|double,yellow fever vaccine year - cs,NA,NA
+smg,haven_labelled|vctrs_vctr|double,received meningitis vaccine - cs,NA,NA
+smgd,haven_labelled|vctrs_vctr|double,meningitis vaccine vaccine day - cs,NA,NA
+smgm,haven_labelled|vctrs_vctr|double,meningitis vaccine month - cs,NA,NA
+smgy,haven_labelled|vctrs_vctr|double,meningitis vaccine year - cs,NA,NA
+idx96,numeric,index to birth history,NA,NA
+s612ba,haven_labelled|vctrs_vctr|double,examined at pharmacy/ppms - diarrhea,NA,NA
+s612bb,haven_labelled|vctrs_vctr|double,advice on medicine to buy,NA,NA
+s612bc,haven_labelled|vctrs_vctr|double,knew what medicine to buy,NA,NA
+s617a,haven_labelled|vctrs_vctr|double,place medicine obtained for diarrhea,NA,NA
+s626ba,haven_labelled|vctrs_vctr|double,examined at pharmacy/ppms - cough/fever,NA,NA
+s626bb,haven_labelled|vctrs_vctr|double,advice on medicine to buy,NA,NA
+s626bc,haven_labelled|vctrs_vctr|double,knew what medicine to buy,NA,NA
+s631a,haven_labelled|vctrs_vctr|double,place medicine obtained for cough/fever,NA,NA

@@ -1,0 +1,51 @@
+Data Availability and Ethical Restrictions – DHS Nigeria 2018 (NGBR8AFL)
+
+This repository contains code and documentation for analyses based on the 2018 Nigeria Demographic and Health Survey (DHS) Births Recode data. The underlying microdata are not included in this GitHub repository.
+
+Data source
+
+All analyses in the associated manuscript use the 2018 Nigeria DHS Births Recode dataset:
+
+NGBR8AFL_codebook.csv
+
+NGBR8AFL_labeled.csv
+
+NGBR8AFL_meta.json
+
+NGBR8AFL_rawcodes.csv
+
+NGBR8AFL_value_labels.csv
+
+NGBR8AFL_var_categories.csv
+
+NGBR8AFL.dta
+
+These files were derived from the NGBR8AFL Births Recode data provided by the DHS Program after registration and approval of a data-use application.
+
+Why the data are not shared here
+
+In accordance with:
+
+The DHS Program Terms of Use and signed data-use agreement, and
+
+Standard data privacy and research ethics requirements,
+
+we are not permitted to redistribute the DHS microdata or any file containing individual-level DHS records on public platforms such as GitHub. For this reason, the files listed above are referenced by the analysis code but not stored in this repository.
+
+How to obtain the data
+
+Researchers who wish to reproduce or extend this work should:
+
+Register for a DHS Program account at: https://www.dhsprogram.com
+
+Submit a data request for the Nigeria 2018 DHS (Births Recode, file name: NGBR8AFL).
+
+After approval, download the data in Stata or another preferred format.
+
+Place the downloaded files in the same directory structure used in this repository (e.g., data/raw/) so that the analysis scripts can run without modification or with minimal path edits.
+
+Acknowledgment
+
+We gratefully acknowledge the DHS Program and the participating countries for granting access to these data. Any errors in analysis or interpretation are the responsibility of the authors alone.
+
+Thank you for your understanding regarding these necessary data-sharing restrictions.

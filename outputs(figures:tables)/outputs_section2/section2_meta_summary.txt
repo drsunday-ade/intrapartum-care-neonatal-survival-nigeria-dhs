@@ -1,0 +1,15 @@
+Top-level elements in NGBR8AFL_meta.json:
+
+[1] "input"         "engine"        "dataset_label" "nrow"          "ncol"          "outputs"      
+[7] "labelsets"    
+
+
+Structure up to depth 1:
+List of 7
+ $ input        : chr "/Users/drsunjava/Desktop/2. Medical Boards Stack/1.DATASETS/DHSprogram/NG_2024_DHS_11012025_727_229114/NGBR8ADT/NGBR8AFL.dta"
+ $ engine       : chr "haven"
+ $ dataset_label: chr ""
+ $ nrow         : int 104557
+ $ ncol         : int 1336
+ $ outputs      :List of 5
+ $ labelsets    : list()
