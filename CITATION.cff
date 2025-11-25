@@ -1,0 +1,30 @@
+# CITATION.cff for the intrapartum care & neonatal survival (Nigeria DHS 2018) repo
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as follows."
+title: "Intrapartum care and neonatal survival in Nigeria (DHS 2018): Reproducible analysis code and outputs"
+type: software
+
+authors:
+  - family-names: Adetunji
+    given-names: Sunday A.
+    orcid: "https://orcid.org/0000-0001-9321-9957"
+    affiliation: "College of Health, Oregon State University, Corvallis, OR, USA"
+  - family-names: Adetunji
+    given-names: Bukola
+    orcid: "https://orcid.org/0009-0009-1822-5455"
+    affiliation: "Lagos State Health Service, Lagos, Nigeria"
+
+version: "1.0.0"
+date-released: "2025-11-24"
+
+repository-code: "https://github.com/drsunday-ade/intrapartum-care-neonatal-survival-nigeria-dhs"
+
+keywords:
+  - Nigeria
+  - neonatal mortality
+  - intrapartum care
+  - Demographic and Health Survey
+  - DHS
+  - maternal and newborn health
+  - epidemiology
+  - causal inference
